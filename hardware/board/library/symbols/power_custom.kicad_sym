@@ -1,0 +1,88 @@
+(kicad_symbol_lib (version 20201005) (generator kicad_symbol_editor)
+  (symbol "power_custom:+3V3_ST_LINK" (power) (in_bom no) (on_board no)
+    (property "Reference" "#PWR" (id 0) (at -4.572 -2.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3V3_ST_LINK" (id 1) (at 0.508 3.81 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (id 2) (at -3.937 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at -3.937 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "+3V3_ST_LINK_0_1"
+      (polyline
+        (pts
+          (xy -0.762 1.27)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 2.54)
+          (xy 0.762 1.27)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+    )
+    (symbol "+3V3_ST_LINK_1_1"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "+3V3_ST_LINK" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+  (symbol "power_custom:U5V" (power) (in_bom no) (on_board no)
+    (property "Reference" "#PWR" (id 0) (at -3.937 -3.175 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "U5V" (id 1) (at -0.127 3.81 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (id 2) (at -3.937 -3.175 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at -3.937 -3.175 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "U5V_0_1"
+      (polyline
+        (pts
+          (xy -0.762 1.27)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 0)
+          (xy 0 2.54)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 2.54)
+          (xy 0.762 1.27)
+        )
+        (stroke (width 0)) (fill (type none))
+      )
+    )
+    (symbol "U5V_1_1"
+      (pin power_in line (at 0 0 90) (length 0) hide
+        (name "U5V" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+)

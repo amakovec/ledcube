@@ -1,0 +1,3231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/shares/akron/ledcube/pcb/pcb.kicad_sch</source>
+    <date>Wed 11 Aug 2021 12:19:29 AM EDT</date>
+    <tool>Eeschema 5.99.0-unknown-5bf0b99813~131~ubuntu21.10.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>pcb.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/SAMD21/" tstamps="/bfb8dc4e-7a1e-40e0-9767-b2e05ad8165d/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>SAMD21.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Power/" tstamps="/2f89a2fd-9777-419d-a311-0a99f095acf4/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Power.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/CubePins-ShiftersAndGND/" tstamps="/48b472e7-e563-4420-8316-a559856546b3/">
+      <title_block>
+        <title>LED Cube</title>
+        <company>Andy Makovec</company>
+        <rev>v1.0</rev>
+        <date>2021-01-16</date>
+        <source>CubePins-ShiftersAndGND.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/CubePins-1/" tstamps="/b8b220b8-f78d-4085-b273-e047da16e1bd/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>CubePins-1.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C10">
+      <value>CL21A106KPCLQNC</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Capacitance">10u</field>
+        <field name="Manufacturer">Samsung</field>
+        <field name="Rating">X5R</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="Capacitor_custom" part="CL21A106KPCLQNC" description="Unpolarized capacitor"/>
+      <property name="Capacitance" value="10u"/>
+      <property name="Voltage" value="10V"/>
+      <property name="Manufacturer" value="Samsung"/>
+      <property name="Rating" value="X5R"/>
+      <property name="Sheetname" value="SAMD21"/>
+      <property name="Sheetfile" value="SAMD21.kicad_sch"/>
+      <sheetpath names="/SAMD21/" tstamps="/bfb8dc4e-7a1e-40e0-9767-b2e05ad8165d/"/>
+      <tstamps>c723e955-d342-44d5-a9b8-cd1f027b0a02</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>GRM155R71H104KE14D</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="Capacitance">100n</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Rating">X7R</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Capacitor_custom" part="GRM155R71H104KE14D" description="Unpolarized capacitor"/>
+      <property name="Capacitance" value="100n"/>
+      <property name="Voltage" value="50V"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Rating" value="X7R"/>
+      <property name="Sheetname" value="SAMD21"/>
+      <property name="Sheetfile" value="SAMD21.kicad_sch"/>
+      <sheetpath names="/SAMD21/" tstamps="/bfb8dc4e-7a1e-40e0-9767-b2e05ad8165d/"/>
+      <tstamps>3f3899c5-6811-4a75-91d5-f5ffd3497b31</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>CL21A106KPCLQNC</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="Capacitance">10u</field>
+        <field name="Manufacturer">Samsung</field>
+        <field name="Rating">X5R</field>
+        <field name="Voltage">10V</field>
+      </fields>
+      <libsource lib="Capacitor_custom" part="CL21A106KPCLQNC" description="Unpolarized capacitor"/>
+      <property name="Capacitance" value="10u"/>
+      <property name="Voltage" value="10V"/>
+      <property name="Manufacturer" value="Samsung"/>
+      <property name="Rating" value="X5R"/>
+      <property name="Sheetname" value="SAMD21"/>
+      <property name="Sheetfile" value="SAMD21.kicad_sch"/>
+      <sheetpath names="/SAMD21/" tstamps="/bfb8dc4e-7a1e-40e0-9767-b2e05ad8165d/"/>
+      <tstamps>430d57d4-20fb-4ff9-8e2a-d2227c66a963</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>CC0402KRX5R5BB105</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="Capacitance">1u</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Rating">X5R</field>
+        <field name="Voltage">6.3V</field>
+      </fields>
+      <libsource lib="Capacitor_custom" part="CC0402KRX5R5BB105" description="Unpolarized capacitor"/>
+      <property name="Capacitance" value="1u"/>
+      <property name="Voltage" value="6.3V"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Rating" value="X5R"/>
+      <property name="Sheetname" value="SAMD21"/>
+      <property name="Sheetfile" value="SAMD21.kicad_sch"/>
+      <sheetpath names="/SAMD21/" tstamps="/bfb8dc4e-7a1e-40e0-9767-b2e05ad8165d/"/>
+      <tstamps>06a7430c-ef44-485a-88df-7eacc1164522</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>GRM155R71H104KE14D</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="Capacitance">100n</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Rating">X7R</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Capacitor_custom" part="GRM155R71H104KE14D" description="Unpolarized capacitor"/>
+      <property name="Capacitance" value="100n"/>
+      <property name="Voltage" value="50V"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Rating" value="X7R"/>
+      <property name="Sheetname" value="SAMD21"/>
+      <property name="Sheetfile" value="SAMD21.kicad_sch"/>
+      <sheetpath names="/SAMD21/" tstamps="/bfb8dc4e-7a1e-40e0-9767-b2e05ad8165d/"/>
+      <tstamps>bc50b0bd-2746-452b-9a7f-85367d135b99</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>GRM1555C1H101JA01J</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="Capacitance">100p</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Rating">C0G</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Capacitor_custom" part="GRM1555C1H101JA01J" description="Unpolarized capacitor"/>
+      <property name="Capacitance" value="100p"/>
+      <property name="Voltage" value="50V"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Rating" value="C0G"/>
+      <property name="Sheetname" value="SAMD21"/>
+      <property name="Sheetfile" value="SAMD21.kicad_sch"/>
+      <sheetpath names="/SAMD21/" tstamps="/bfb8dc4e-7a1e-40e0-9767-b2e05ad8165d/"/>
+      <tstamps>84f84768-61c9-4f3b-9ed1-d4039aaa5ee3</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>GCM155R71H103KA55D_1</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="Capacitance">4.7n</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Rating">X7R</field>
+        <field name="Voltage">100V</field>
+      </fields>
+      <libsource lib="Capacitor_custom" part="GCM155R71H103KA55D_1" description="Unpolarized capacitor"/>
+      <property name="Capacitance" value="4.7n"/>
+      <property name="Voltage" value="100V"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Rating" value="X7R"/>
+      <property name="Sheetname" value="SAMD21"/>
+      <property name="Sheetfile" value="SAMD21.kicad_sch"/>
+      <sheetpath names="/SAMD21/" tstamps="/bfb8dc4e-7a1e-40e0-9767-b2e05ad8165d/"/>
+      <tstamps>fe415679-e7d5-4d4a-885d-7efd8d6ca726</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>0685T5000</value>
+      <footprint>Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="Current Rating">5A</field>
+        <field name="Manufacturer">Bel Fuse Inc.</field>
+        <field name="Response Time">Slow Blow</field>
+        <field name="Voltage Rating - DC">63V</field>
+      </fields>
+      <libsource lib="Device_custom" part="0685T5000" description="Fuse"/>
+      <property name="Current Rating" value="5A"/>
+      <property name="Voltage Rating - DC" value="63V"/>
+      <property name="Response Time" value="Slow Blow"/>
+      <property name="Manufacturer" value="Bel Fuse Inc."/>
+      <property name="Sheetname" value="SAMD21"/>
+      <property name="Sheetfile" value="SAMD21.kicad_sch"/>
+      <sheetpath names="/SAMD21/" tstamps="/bfb8dc4e-7a1e-40e0-9767-b2e05ad8165d/"/>
+      <tstamps>49101a95-cf4b-4572-98ff-07880167565a</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>USB4085-GF-A_REVA</value>
+      <footprint>GCT_USB4085-GF-A_REVA</footprint>
+      <fields>
+        <field name="MANUFACTURER">Global Connector Technology</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">3.46mm</field>
+        <field name="PARTREV">A2</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="USB4085-GF-A_REVA" part="USB4085-GF-A_REVA" description=""/>
+      <property name="PARTREV" value="A2"/>
+      <property name="MANUFACTURER" value="Global Connector Technology"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="3.46mm"/>
+      <property name="Sheetname" value="SAMD21"/>
+      <property name="Sheetfile" value="SAMD21.kicad_sch"/>
+      <sheetpath names="/SAMD21/" tstamps="/bfb8dc4e-7a1e-40e0-9767-b2e05ad8165d/"/>
+      <tstamps>687313e7-faba-4d85-8e51-127f652ac85d</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_ARM_JTAG_SWD_10</value>
+      <footprint>Connector_custom:TST-105-01-T-D</footprint>
+      <datasheet>http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf</datasheet>
+      <libsource lib="Connector" part="Conn_ARM_JTAG_SWD_10" description="Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface"/>
+      <property name="Sheetname" value="SAMD21"/>
+      <property name="Sheetfile" value="SAMD21.kicad_sch"/>
+      <sheetpath names="/SAMD21/" tstamps="/bfb8dc4e-7a1e-40e0-9767-b2e05ad8165d/"/>
+      <tstamps>a09d6573-43ed-4dff-9c30-7dfb7a626a39</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>CBC2518T100M</value>
+      <footprint>Inductor_SMD:L_1008_2520Metric_Pad1.43x2.20mm_HandSolder</footprint>
+      <fields>
+        <field name="Current">680mA</field>
+        <field name="DCR">468mOhm</field>
+        <field name="Inductance">10u</field>
+        <field name="Manufacturer">Taiyo Yuden</field>
+      </fields>
+      <libsource lib="Inductor_custom" part="CBC2518T100M" description="Inductor"/>
+      <property name="Manufacturer" value="Taiyo Yuden"/>
+      <property name="Current" value="680mA"/>
+      <property name="DCR" value="468mOhm"/>
+      <property name="Inductance" value="10u"/>
+      <property name="Sheetname" value="SAMD21"/>
+      <property name="Sheetfile" value="SAMD21.kicad_sch"/>
+      <sheetpath names="/SAMD21/" tstamps="/bfb8dc4e-7a1e-40e0-9767-b2e05ad8165d/"/>
+      <tstamps>9d2c524e-6282-4679-aa2d-e77973bdfb02</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>RC0402JR-0710KL</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Resistance">10k</field>
+      </fields>
+      <libsource lib="Resistor_custom" part="RC0402JR-0710KL" description="Resistor, US symbol"/>
+      <property name="Resistance" value="10k"/>
+      <property name="Sheetname" value="SAMD21"/>
+      <property name="Sheetfile" value="SAMD21.kicad_sch"/>
+      <sheetpath names="/SAMD21/" tstamps="/bfb8dc4e-7a1e-40e0-9767-b2e05ad8165d/"/>
+      <tstamps>ee7dfa6c-e31e-40ad-b85c-cb5fb90fc480</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>RC0402JR-0710KL</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Resistance">10k</field>
+      </fields>
+      <libsource lib="Resistor_custom" part="RC0402JR-0710KL" description="Resistor, US symbol"/>
+      <property name="Resistance" value="10k"/>
+      <property name="Sheetname" value="SAMD21"/>
+      <property name="Sheetfile" value="SAMD21.kicad_sch"/>
+      <sheetpath names="/SAMD21/" tstamps="/bfb8dc4e-7a1e-40e0-9767-b2e05ad8165d/"/>
+      <tstamps>c8bcf24e-4118-4aaf-bf07-1fdc2dec5edc</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>RC0402FR-075K1L</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Power">1/16W</field>
+        <field name="Resistance">5.1k</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Resistor_custom" part="RC0402FR-075K1L" description="Resistor, US symbol"/>
+      <property name="Resistance" value="5.1k"/>
+      <property name="Power" value="1/16W"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="SAMD21"/>
+      <property name="Sheetfile" value="SAMD21.kicad_sch"/>
+      <sheetpath names="/SAMD21/" tstamps="/bfb8dc4e-7a1e-40e0-9767-b2e05ad8165d/"/>
+      <tstamps>151f880c-c7fb-4ec1-a9db-400fd1b31402</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>RC0402JR-0710KL</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Resistance">10k</field>
+      </fields>
+      <libsource lib="Resistor_custom" part="RC0402JR-0710KL" description="Resistor, US symbol"/>
+      <property name="Resistance" value="10k"/>
+      <property name="Sheetname" value="SAMD21"/>
+      <property name="Sheetfile" value="SAMD21.kicad_sch"/>
+      <sheetpath names="/SAMD21/" tstamps="/bfb8dc4e-7a1e-40e0-9767-b2e05ad8165d/"/>
+      <tstamps>7b2554df-7157-4c10-bde8-70260af05a8e</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>RC0402FR-075K1L</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Power">1/16W</field>
+        <field name="Resistance">5.1k</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Resistor_custom" part="RC0402FR-075K1L" description="Resistor, US symbol"/>
+      <property name="Resistance" value="5.1k"/>
+      <property name="Power" value="1/16W"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="SAMD21"/>
+      <property name="Sheetfile" value="SAMD21.kicad_sch"/>
+      <sheetpath names="/SAMD21/" tstamps="/bfb8dc4e-7a1e-40e0-9767-b2e05ad8165d/"/>
+      <tstamps>d942b464-f2d2-4f5d-923d-90f20e882da3</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>RC0402JR-071KL</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Power">1/16W</field>
+        <field name="Resistance">1k</field>
+      </fields>
+      <libsource lib="Resistor_custom" part="RC0402JR-071KL" description="Resistor, US symbol"/>
+      <property name="Resistance" value="1k"/>
+      <property name="Power" value="1/16W"/>
+      <property name="Sheetname" value="SAMD21"/>
+      <property name="Sheetfile" value="SAMD21.kicad_sch"/>
+      <sheetpath names="/SAMD21/" tstamps="/bfb8dc4e-7a1e-40e0-9767-b2e05ad8165d/"/>
+      <tstamps>1d97486a-c7d8-4bbd-9436-acbab4fdc372</tstamps>
+    </comp>
+    <comp ref="R50">
+      <value>RC0402FR-07330RL</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Power">1/16W</field>
+        <field name="Resistance">330</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Resistor_custom" part="RC0402FR-07330RL" description="Resistor, US symbol"/>
+      <property name="Resistance" value="330"/>
+      <property name="Power" value="1/16W"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="SAMD21"/>
+      <property name="Sheetfile" value="SAMD21.kicad_sch"/>
+      <sheetpath names="/SAMD21/" tstamps="/bfb8dc4e-7a1e-40e0-9767-b2e05ad8165d/"/>
+      <tstamps>510edb2c-5dcb-4fa1-9986-652387181c18</tstamps>
+    </comp>
+    <comp ref="R51">
+      <value>RK73H1ETTP2201F</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">KOA Speer Electronics, Inc.</field>
+        <field name="Power">1/10W</field>
+        <field name="Resistance">2.2k</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Resistor_custom" part="RK73H1ETTP2201F" description="Resistor, US symbol"/>
+      <property name="Resistance" value="2.2k"/>
+      <property name="Power" value="1/10W"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Manufacturer" value="KOA Speer Electronics, Inc."/>
+      <property name="Sheetname" value="SAMD21"/>
+      <property name="Sheetfile" value="SAMD21.kicad_sch"/>
+      <sheetpath names="/SAMD21/" tstamps="/bfb8dc4e-7a1e-40e0-9767-b2e05ad8165d/"/>
+      <tstamps>8becd794-bf28-461a-8e84-170d299e3eac</tstamps>
+    </comp>
+    <comp ref="R52">
+      <value>CRGCQ0402F1M0</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">TE Connectivity Passive Product</field>
+        <field name="Power">1/16W</field>
+        <field name="Resistance">1M</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Resistor_custom" part="CRGCQ0402F1M0" description="Resistor, US symbol"/>
+      <property name="Resistance" value="1M"/>
+      <property name="Power" value="1/16W"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Manufacturer" value="TE Connectivity Passive Product"/>
+      <property name="Sheetname" value="SAMD21"/>
+      <property name="Sheetfile" value="SAMD21.kicad_sch"/>
+      <sheetpath names="/SAMD21/" tstamps="/bfb8dc4e-7a1e-40e0-9767-b2e05ad8165d/"/>
+      <tstamps>0c3496ff-2c81-48d6-9836-bc1fc7e2513a</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>PTS645SH50SMTR92 LFS</value>
+      <footprint>Button_Switch_SMD_custom:SW_Push_1P1T_NO_6x6mm_H9.5mm</footprint>
+      <libsource lib="Switch_custom" part="PTS645SH50SMTR92 LFS" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value="SAMD21"/>
+      <property name="Sheetfile" value="SAMD21.kicad_sch"/>
+      <sheetpath names="/SAMD21/" tstamps="/bfb8dc4e-7a1e-40e0-9767-b2e05ad8165d/"/>
+      <tstamps>edf427a9-58ea-4ea6-8d55-2efd3c36414a</tstamps>
+    </comp>
+    <comp ref="SW2">
+      <value>PTS645SH50SMTR92 LFS</value>
+      <footprint>Button_Switch_SMD_custom:SW_Push_1P1T_NO_6x6mm_H9.5mm</footprint>
+      <libsource lib="Switch_custom" part="PTS645SH50SMTR92 LFS" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value="SAMD21"/>
+      <property name="Sheetfile" value="SAMD21.kicad_sch"/>
+      <sheetpath names="/SAMD21/" tstamps="/bfb8dc4e-7a1e-40e0-9767-b2e05ad8165d/"/>
+      <tstamps>839f31c6-5e0c-4ca9-86e6-524b3bf0a487</tstamps>
+    </comp>
+    <comp ref="SW3">
+      <value>PTS645SH50SMTR92 LFS</value>
+      <footprint>Button_Switch_SMD_custom:SW_Push_1P1T_NO_6x6mm_H9.5mm</footprint>
+      <libsource lib="Switch_custom" part="PTS645SH50SMTR92 LFS" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value="SAMD21"/>
+      <property name="Sheetfile" value="SAMD21.kicad_sch"/>
+      <sheetpath names="/SAMD21/" tstamps="/bfb8dc4e-7a1e-40e0-9767-b2e05ad8165d/"/>
+      <tstamps>e9bad7d3-1a76-4ed9-9025-a0d7498b9a26</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>ATSAMD21E15B-A</value>
+      <footprint>Package_QFP:TQFP-32_7x7mm_P0.8mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/SAM_D21_DA1_Family_Data%20Sheet_DS40001882E.pdf</datasheet>
+      <libsource lib="MCU_Microchip_SAMD" part="ATSAMD21E15B-A" description="SAM D21 Microchip SMART ARM-based Flash MCU, 48Mhz, 32K Flash w/ 1K RWW, 4K SRAM, TQFP-32"/>
+      <property name="Sheetname" value="SAMD21"/>
+      <property name="Sheetfile" value="SAMD21.kicad_sch"/>
+      <sheetpath names="/SAMD21/" tstamps="/bfb8dc4e-7a1e-40e0-9767-b2e05ad8165d/"/>
+      <tstamps>dbd82ef3-dd22-4048-8169-2cbe2566f8b1</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>D3V3F4U6S</value>
+      <footprint>Package_TO_SOT_SMD:SOT-363_SC-70-6</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/D3V3XA4B10LP.pdf</datasheet>
+      <libsource lib="Power_Protection_custom" part="D3V3F4U6S" description="4-Channel Low Capacitance TVS Diode Array, DFN-10"/>
+      <property name="Sheetname" value="SAMD21"/>
+      <property name="Sheetfile" value="SAMD21.kicad_sch"/>
+      <sheetpath names="/SAMD21/" tstamps="/bfb8dc4e-7a1e-40e0-9767-b2e05ad8165d/"/>
+      <tstamps>fae99984-5516-4027-bf27-8c4e48b15e87</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>CC0402KRX5R5BB105</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="Capacitance">1u</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Rating">X5R</field>
+        <field name="Voltage">6.3V</field>
+      </fields>
+      <libsource lib="Capacitor_custom" part="CC0402KRX5R5BB105" description="Unpolarized capacitor"/>
+      <property name="Capacitance" value="1u"/>
+      <property name="Voltage" value="6.3V"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Rating" value="X5R"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/2f89a2fd-9777-419d-a311-0a99f095acf4/"/>
+      <tstamps>e4d9a91a-543d-4537-8a27-e98d1fcd8968</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>GRM155R71H104KE14D</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="Capacitance">100n</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Rating">X7R</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Capacitor_custom" part="GRM155R71H104KE14D" description="Unpolarized capacitor"/>
+      <property name="Capacitance" value="100n"/>
+      <property name="Voltage" value="50V"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Rating" value="X7R"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/2f89a2fd-9777-419d-a311-0a99f095acf4/"/>
+      <tstamps>989383ee-6ab3-453f-82c0-db9003ddaeeb</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>GRM155R71H104KE14D</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="Capacitance">100n</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Rating">X7R</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Capacitor_custom" part="GRM155R71H104KE14D" description="Unpolarized capacitor"/>
+      <property name="Capacitance" value="100n"/>
+      <property name="Voltage" value="50V"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Rating" value="X7R"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/2f89a2fd-9777-419d-a311-0a99f095acf4/"/>
+      <tstamps>d477906a-7669-46c5-af5c-652ba4e69e42</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>CC0402KRX5R5BB105</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="Capacitance">1u</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Rating">X5R</field>
+        <field name="Voltage">6.3V</field>
+      </fields>
+      <libsource lib="Capacitor_custom" part="CC0402KRX5R5BB105" description="Unpolarized capacitor"/>
+      <property name="Capacitance" value="1u"/>
+      <property name="Voltage" value="6.3V"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Rating" value="X5R"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/2f89a2fd-9777-419d-a311-0a99f095acf4/"/>
+      <tstamps>4396098a-20af-47e4-a541-4cdd25a9413d</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>GCM155R71H103KA55D</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="Capacitance">10n</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Rating">X7R</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Capacitor_custom" part="GCM155R71H103KA55D" description="Unpolarized capacitor"/>
+      <property name="Capacitance" value="10n"/>
+      <property name="Voltage" value="50V"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Rating" value="X7R"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/2f89a2fd-9777-419d-a311-0a99f095acf4/"/>
+      <tstamps>cb69c4d4-0504-45de-bab4-e85100586923</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>GCM155R71H103KA55D</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="Capacitance">10n</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Rating">X7R</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Capacitor_custom" part="GCM155R71H103KA55D" description="Unpolarized capacitor"/>
+      <property name="Capacitance" value="10n"/>
+      <property name="Voltage" value="50V"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Rating" value="X7R"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/2f89a2fd-9777-419d-a311-0a99f095acf4/"/>
+      <tstamps>20dd05ad-f848-4515-8d77-bd63c1f67336</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>GCM155R71H103KA55D</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="Capacitance">10n</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Rating">X7R</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Capacitor_custom" part="GCM155R71H103KA55D" description="Unpolarized capacitor"/>
+      <property name="Capacitance" value="10n"/>
+      <property name="Voltage" value="50V"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Rating" value="X7R"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/2f89a2fd-9777-419d-a311-0a99f095acf4/"/>
+      <tstamps>b4d535d8-0be8-4956-a40b-01d35347b6b1</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>150060RS75000</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Color">Red</field>
+        <field name="Manufacturer">Würth</field>
+      </fields>
+      <libsource lib="Device_custom" part="150060RS75000" description="Light emitting diode"/>
+      <property name="Manufacturer" value="Würth"/>
+      <property name="Color" value="Red"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/2f89a2fd-9777-419d-a311-0a99f095acf4/"/>
+      <tstamps>c2c6d3c8-d511-492d-827b-c2e2f16d4563</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>150060RS75000</value>
+      <footprint>LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="Color">Red</field>
+        <field name="Manufacturer">Würth</field>
+      </fields>
+      <libsource lib="Device_custom" part="150060RS75000" description="Light emitting diode"/>
+      <property name="Manufacturer" value="Würth"/>
+      <property name="Color" value="Red"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/2f89a2fd-9777-419d-a311-0a99f095acf4/"/>
+      <tstamps>bef74f2c-bba7-4f21-9301-6c5b6417e222</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>CFG0612-FX-R010ELF</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">Bourns Inc.</field>
+        <field name="Power">1W</field>
+        <field name="Resistance">10m</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Resistor_custom" part="CFG0612-FX-R010ELF" description="Resistor, US symbol"/>
+      <property name="Resistance" value="10m"/>
+      <property name="Power" value="1W"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Manufacturer" value="Bourns Inc."/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/2f89a2fd-9777-419d-a311-0a99f095acf4/"/>
+      <tstamps>cfcdd8f2-b3b5-4ee2-92e0-96855a3070e8</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>RC0402JR-071KL</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Power">1/16W</field>
+        <field name="Resistance">1k</field>
+      </fields>
+      <libsource lib="Resistor_custom" part="RC0402JR-071KL" description="Resistor, US symbol"/>
+      <property name="Resistance" value="1k"/>
+      <property name="Power" value="1/16W"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/2f89a2fd-9777-419d-a311-0a99f095acf4/"/>
+      <tstamps>8297200b-e716-435b-b1a0-69045bad2290</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>RC0402FR-07150KL</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Power">1/16W</field>
+        <field name="Resistance">150k</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Resistor_custom" part="RC0402FR-07150KL" description="Resistor, US symbol"/>
+      <property name="Resistance" value="150k"/>
+      <property name="Power" value="1/16W"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/2f89a2fd-9777-419d-a311-0a99f095acf4/"/>
+      <tstamps>c84e71bf-e83b-460d-babb-9e771b7e6138</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>RC0402FR-0720KL</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Power">1/16W</field>
+        <field name="Resistance">20k</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Resistor_custom" part="RC0402FR-0720KL" description="Resistor, US symbol"/>
+      <property name="Resistance" value="20k"/>
+      <property name="Power" value="1/16W"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/2f89a2fd-9777-419d-a311-0a99f095acf4/"/>
+      <tstamps>43e79b71-d6a4-46e8-92f1-3799cde58b11</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>RC0402FR-071KL</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Power">1/16W</field>
+        <field name="Resistance">1k</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Resistor_custom" part="RC0402FR-071KL" description="Resistor, US symbol"/>
+      <property name="Resistance" value="1k"/>
+      <property name="Power" value="1/16W"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/2f89a2fd-9777-419d-a311-0a99f095acf4/"/>
+      <tstamps>33424ca9-a0bd-41c1-a12e-9d1667963336</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>RC0402FR-0782KL</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Power">1/16W</field>
+        <field name="Resistance">82k</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Resistor_custom" part="RC0402FR-0782KL" description="Resistor, US symbol"/>
+      <property name="Resistance" value="82k"/>
+      <property name="Power" value="1/16W"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/2f89a2fd-9777-419d-a311-0a99f095acf4/"/>
+      <tstamps>fecdc2af-32aa-40a9-912a-7cc36ac11668</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>RC0402FR-071K5L</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Power">1/16W</field>
+        <field name="Resistance">1.5k</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Resistor_custom" part="RC0402FR-071K5L" description="Resistor, US symbol"/>
+      <property name="Resistance" value="1.5k"/>
+      <property name="Power" value="1/16W"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/2f89a2fd-9777-419d-a311-0a99f095acf4/"/>
+      <tstamps>e60c1b17-1d0a-4b62-9cbf-026923a0e1b8</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>RC0402FR-07100KL</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Power">1/16W</field>
+        <field name="Resistance">100k</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Resistor_custom" part="RC0402FR-07100KL" description="Resistor, US symbol"/>
+      <property name="Resistance" value="100k"/>
+      <property name="Power" value="1/16W"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/2f89a2fd-9777-419d-a311-0a99f095acf4/"/>
+      <tstamps>b84e7bd7-7713-4fdc-a9d9-c3f4b61b355c</tstamps>
+    </comp>
+    <comp ref="R49">
+      <value>RC0402JR-071KL</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Power">1/16W</field>
+        <field name="Resistance">1k</field>
+      </fields>
+      <libsource lib="Resistor_custom" part="RC0402JR-071KL" description="Resistor, US symbol"/>
+      <property name="Resistance" value="1k"/>
+      <property name="Power" value="1/16W"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/2f89a2fd-9777-419d-a311-0a99f095acf4/"/>
+      <tstamps>35e4d4e2-510c-4f91-8547-889595441bfc</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>LD1117S33TR_SOT223</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <datasheet>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="LD1117S33TR_SOT223" description="800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, SOT-223"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/2f89a2fd-9777-419d-a311-0a99f095acf4/"/>
+      <tstamps>a57fe7dd-c2d3-494f-8af7-5f997854db97</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>MCP6L01Rx-xOT</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/devicedoc/22140b.pdf</datasheet>
+      <libsource lib="Amplifier_Operational_Custom" part="MCP6L01Rx-xOT" description="Single, 1 MHz, 85µA, Rail-to-Rail input and ouput, SOT-23-5"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/2f89a2fd-9777-419d-a311-0a99f095acf4/"/>
+      <tstamps>3ba73156-8271-4146-869d-7f85c4ae97fa</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>MCP6L01Rx-xOT</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/devicedoc/22140b.pdf</datasheet>
+      <libsource lib="Amplifier_Operational_Custom" part="MCP6L01Rx-xOT" description="Single, 1 MHz, 85µA, Rail-to-Rail input and ouput, SOT-23-5"/>
+      <property name="Sheetname" value="Power"/>
+      <property name="Sheetfile" value="Power.kicad_sch"/>
+      <sheetpath names="/Power/" tstamps="/2f89a2fd-9777-419d-a311-0a99f095acf4/"/>
+      <tstamps>920ddafd-d340-4e4e-aa13-be846115efda</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>GCM155R71H103KA55D</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="Capacitance">10n</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Rating">X7R</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Capacitor_custom" part="GCM155R71H103KA55D" description="Unpolarized capacitor"/>
+      <property name="Capacitance" value="10n"/>
+      <property name="Voltage" value="50V"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Rating" value="X7R"/>
+      <property name="Sheetname" value="CubePins-ShiftersAndGND"/>
+      <property name="Sheetfile" value="CubePins-ShiftersAndGND.kicad_sch"/>
+      <sheetpath names="/CubePins-ShiftersAndGND/" tstamps="/48b472e7-e563-4420-8316-a559856546b3/"/>
+      <tstamps>650565fe-440a-45fc-9467-8f85da07e34e</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>GCM155R71H103KA55D</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</footprint>
+      <fields>
+        <field name="Capacitance">10n</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Rating">X7R</field>
+        <field name="Voltage">50V</field>
+      </fields>
+      <libsource lib="Capacitor_custom" part="GCM155R71H103KA55D" description="Unpolarized capacitor"/>
+      <property name="Capacitance" value="10n"/>
+      <property name="Voltage" value="50V"/>
+      <property name="Manufacturer" value="Murata"/>
+      <property name="Rating" value="X7R"/>
+      <property name="Sheetname" value="CubePins-ShiftersAndGND"/>
+      <property name="Sheetfile" value="CubePins-ShiftersAndGND.kicad_sch"/>
+      <sheetpath names="/CubePins-ShiftersAndGND/" tstamps="/48b472e7-e563-4420-8316-a559856546b3/"/>
+      <tstamps>7151c25a-a784-4924-a922-778e94352b73</tstamps>
+    </comp>
+    <comp ref="P17">
+      <value>SSW-104-01-T-S</value>
+      <footprint>Connector_custom:SSW-104-01-T-S</footprint>
+      <libsource lib="Connector_custom" part="SSW-104-01-T-S" description=""/>
+      <property name="Sheetname" value="CubePins-ShiftersAndGND"/>
+      <property name="Sheetfile" value="CubePins-ShiftersAndGND.kicad_sch"/>
+      <sheetpath names="/CubePins-ShiftersAndGND/" tstamps="/48b472e7-e563-4420-8316-a559856546b3/"/>
+      <tstamps>473f2ed8-30d2-4ab6-9647-010e3c67ce63</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>DMG2302U</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.diodes.com/assets/Datasheets/DMG2302U.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="DMG2302U" description="4.2A Id, 20V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="Sheetname" value="CubePins-ShiftersAndGND"/>
+      <property name="Sheetfile" value="CubePins-ShiftersAndGND.kicad_sch"/>
+      <sheetpath names="/CubePins-ShiftersAndGND/" tstamps="/48b472e7-e563-4420-8316-a559856546b3/"/>
+      <tstamps>e31b6f19-6ef0-4e91-b5d2-4e32524bf807</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>DMG2302U</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.diodes.com/assets/Datasheets/DMG2302U.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="DMG2302U" description="4.2A Id, 20V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="Sheetname" value="CubePins-ShiftersAndGND"/>
+      <property name="Sheetfile" value="CubePins-ShiftersAndGND.kicad_sch"/>
+      <sheetpath names="/CubePins-ShiftersAndGND/" tstamps="/48b472e7-e563-4420-8316-a559856546b3/"/>
+      <tstamps>d2fba1b4-4d85-49b4-8ced-07c08844da61</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>DMG2302U</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.diodes.com/assets/Datasheets/DMG2302U.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="DMG2302U" description="4.2A Id, 20V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="Sheetname" value="CubePins-ShiftersAndGND"/>
+      <property name="Sheetfile" value="CubePins-ShiftersAndGND.kicad_sch"/>
+      <sheetpath names="/CubePins-ShiftersAndGND/" tstamps="/48b472e7-e563-4420-8316-a559856546b3/"/>
+      <tstamps>d4881c0b-4bb6-42ac-a65e-577a62089914</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>DMG2302U</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://www.diodes.com/assets/Datasheets/DMG2302U.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="DMG2302U" description="4.2A Id, 20V Vds, N-Channel MOSFET, SOT-23"/>
+      <property name="Sheetname" value="CubePins-ShiftersAndGND"/>
+      <property name="Sheetfile" value="CubePins-ShiftersAndGND.kicad_sch"/>
+      <sheetpath names="/CubePins-ShiftersAndGND/" tstamps="/48b472e7-e563-4420-8316-a559856546b3/"/>
+      <tstamps>c85ae9e0-9c58-4d5c-b3d5-8ce2c14fd51b</tstamps>
+    </comp>
+    <comp ref="Q5">
+      <value>PMBT3904</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PMBT3904.pdf</datasheet>
+      <libsource lib="Transistor_BJT_custom" part="PMBT3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor"/>
+      <property name="Sheetname" value="CubePins-ShiftersAndGND"/>
+      <property name="Sheetfile" value="CubePins-ShiftersAndGND.kicad_sch"/>
+      <sheetpath names="/CubePins-ShiftersAndGND/" tstamps="/48b472e7-e563-4420-8316-a559856546b3/"/>
+      <tstamps>63b94c44-f008-43c7-b8fe-d1ffb1dc08fa</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>RC0402FR-076K2L</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Power">1/16W</field>
+        <field name="Resistance">6.2k</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Resistor_custom" part="RC0402FR-076K2L" description="Resistor, US symbol"/>
+      <property name="Resistance" value="6.2k"/>
+      <property name="Power" value="1/16W"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="CubePins-ShiftersAndGND"/>
+      <property name="Sheetfile" value="CubePins-ShiftersAndGND.kicad_sch"/>
+      <sheetpath names="/CubePins-ShiftersAndGND/" tstamps="/48b472e7-e563-4420-8316-a559856546b3/"/>
+      <tstamps>8fe0d712-bf53-4092-ade6-6d009041fbf8</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>TPIC6595</value>
+      <footprint>Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tpic6595.pdf</datasheet>
+      <libsource lib="Interface_Expansion" part="TPIC6595" description="Power Logic 8-bit Shift Register, DIP-8/SOIC-8"/>
+      <property name="Sheetname" value="CubePins-ShiftersAndGND"/>
+      <property name="Sheetfile" value="CubePins-ShiftersAndGND.kicad_sch"/>
+      <sheetpath names="/CubePins-ShiftersAndGND/" tstamps="/48b472e7-e563-4420-8316-a559856546b3/"/>
+      <tstamps>ea67a917-ebba-4d84-ace5-9c9c3d418cce</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>TPIC6595</value>
+      <footprint>Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tpic6595.pdf</datasheet>
+      <libsource lib="Interface_Expansion" part="TPIC6595" description="Power Logic 8-bit Shift Register, DIP-8/SOIC-8"/>
+      <property name="Sheetname" value="CubePins-ShiftersAndGND"/>
+      <property name="Sheetfile" value="CubePins-ShiftersAndGND.kicad_sch"/>
+      <sheetpath names="/CubePins-ShiftersAndGND/" tstamps="/48b472e7-e563-4420-8316-a559856546b3/"/>
+      <tstamps>a2bb70b3-b112-459e-9b3d-3e5d84c4f279</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>MCP6L01Rx-xOT</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/devicedoc/22140b.pdf</datasheet>
+      <libsource lib="Amplifier_Operational_Custom" part="MCP6L01Rx-xOT" description="Single, 1 MHz, 85µA, Rail-to-Rail input and ouput, SOT-23-5"/>
+      <property name="Sheetname" value="CubePins-ShiftersAndGND"/>
+      <property name="Sheetfile" value="CubePins-ShiftersAndGND.kicad_sch"/>
+      <sheetpath names="/CubePins-ShiftersAndGND/" tstamps="/48b472e7-e563-4420-8316-a559856546b3/"/>
+      <tstamps>522a8fae-23b0-4cd3-826a-ff2011e7dc47</tstamps>
+    </comp>
+    <comp ref="P1">
+      <value>SSW-101-01-T-S</value>
+      <footprint>Connector_custom:SSW-101-01-T-S</footprint>
+      <libsource lib="Connector_custom" part="SSW-101-01-T-S" description=""/>
+      <property name="Sheetname" value="CubePins-1"/>
+      <property name="Sheetfile" value="CubePins-1.kicad_sch"/>
+      <sheetpath names="/CubePins-1/" tstamps="/b8b220b8-f78d-4085-b273-e047da16e1bd/"/>
+      <tstamps>344718e7-9dbf-4a8b-a905-a55e1f718874</tstamps>
+    </comp>
+    <comp ref="P2">
+      <value>SSW-101-01-T-S</value>
+      <footprint>Connector_custom:SSW-101-01-T-S</footprint>
+      <libsource lib="Connector_custom" part="SSW-101-01-T-S" description=""/>
+      <property name="Sheetname" value="CubePins-1"/>
+      <property name="Sheetfile" value="CubePins-1.kicad_sch"/>
+      <sheetpath names="/CubePins-1/" tstamps="/b8b220b8-f78d-4085-b273-e047da16e1bd/"/>
+      <tstamps>4c29d818-3b1a-4035-88bd-3a13be0a226b</tstamps>
+    </comp>
+    <comp ref="P3">
+      <value>SSW-101-01-T-S</value>
+      <footprint>Connector_custom:SSW-101-01-T-S</footprint>
+      <libsource lib="Connector_custom" part="SSW-101-01-T-S" description=""/>
+      <property name="Sheetname" value="CubePins-1"/>
+      <property name="Sheetfile" value="CubePins-1.kicad_sch"/>
+      <sheetpath names="/CubePins-1/" tstamps="/b8b220b8-f78d-4085-b273-e047da16e1bd/"/>
+      <tstamps>286e968c-bed1-45d9-bd63-74a66144506d</tstamps>
+    </comp>
+    <comp ref="P4">
+      <value>SSW-101-01-T-S</value>
+      <footprint>Connector_custom:SSW-101-01-T-S</footprint>
+      <libsource lib="Connector_custom" part="SSW-101-01-T-S" description=""/>
+      <property name="Sheetname" value="CubePins-1"/>
+      <property name="Sheetfile" value="CubePins-1.kicad_sch"/>
+      <sheetpath names="/CubePins-1/" tstamps="/b8b220b8-f78d-4085-b273-e047da16e1bd/"/>
+      <tstamps>79d8271b-98e6-4d53-92e2-834cf850a21d</tstamps>
+    </comp>
+    <comp ref="P5">
+      <value>SSW-101-01-T-S</value>
+      <footprint>Connector_custom:SSW-101-01-T-S</footprint>
+      <libsource lib="Connector_custom" part="SSW-101-01-T-S" description=""/>
+      <property name="Sheetname" value="CubePins-1"/>
+      <property name="Sheetfile" value="CubePins-1.kicad_sch"/>
+      <sheetpath names="/CubePins-1/" tstamps="/b8b220b8-f78d-4085-b273-e047da16e1bd/"/>
+      <tstamps>af2785b0-76ec-4a9a-8ff5-43e9d4b0ebe3</tstamps>
+    </comp>
+    <comp ref="P6">
+      <value>SSW-101-01-T-S</value>
+      <footprint>Connector_custom:SSW-101-01-T-S</footprint>
+      <libsource lib="Connector_custom" part="SSW-101-01-T-S" description=""/>
+      <property name="Sheetname" value="CubePins-1"/>
+      <property name="Sheetfile" value="CubePins-1.kicad_sch"/>
+      <sheetpath names="/CubePins-1/" tstamps="/b8b220b8-f78d-4085-b273-e047da16e1bd/"/>
+      <tstamps>c5b897e6-5039-48c8-91b0-4ca03575775c</tstamps>
+    </comp>
+    <comp ref="P7">
+      <value>SSW-101-01-T-S</value>
+      <footprint>Connector_custom:SSW-101-01-T-S</footprint>
+      <libsource lib="Connector_custom" part="SSW-101-01-T-S" description=""/>
+      <property name="Sheetname" value="CubePins-1"/>
+      <property name="Sheetfile" value="CubePins-1.kicad_sch"/>
+      <sheetpath names="/CubePins-1/" tstamps="/b8b220b8-f78d-4085-b273-e047da16e1bd/"/>
+      <tstamps>900ae7c7-7cd1-4544-9d6a-e5b4c60e778a</tstamps>
+    </comp>
+    <comp ref="P8">
+      <value>SSW-101-01-T-S</value>
+      <footprint>Connector_custom:SSW-101-01-T-S</footprint>
+      <libsource lib="Connector_custom" part="SSW-101-01-T-S" description=""/>
+      <property name="Sheetname" value="CubePins-1"/>
+      <property name="Sheetfile" value="CubePins-1.kicad_sch"/>
+      <sheetpath names="/CubePins-1/" tstamps="/b8b220b8-f78d-4085-b273-e047da16e1bd/"/>
+      <tstamps>ae53649f-162b-4511-bc39-d0e937a93d9e</tstamps>
+    </comp>
+    <comp ref="P9">
+      <value>SSW-101-01-T-S</value>
+      <footprint>Connector_custom:SSW-101-01-T-S</footprint>
+      <libsource lib="Connector_custom" part="SSW-101-01-T-S" description=""/>
+      <property name="Sheetname" value="CubePins-1"/>
+      <property name="Sheetfile" value="CubePins-1.kicad_sch"/>
+      <sheetpath names="/CubePins-1/" tstamps="/b8b220b8-f78d-4085-b273-e047da16e1bd/"/>
+      <tstamps>aef72304-568d-4d4a-833d-acbb242cf06f</tstamps>
+    </comp>
+    <comp ref="P10">
+      <value>SSW-101-01-T-S</value>
+      <footprint>Connector_custom:SSW-101-01-T-S</footprint>
+      <libsource lib="Connector_custom" part="SSW-101-01-T-S" description=""/>
+      <property name="Sheetname" value="CubePins-1"/>
+      <property name="Sheetfile" value="CubePins-1.kicad_sch"/>
+      <sheetpath names="/CubePins-1/" tstamps="/b8b220b8-f78d-4085-b273-e047da16e1bd/"/>
+      <tstamps>06b362ad-f78a-49f3-8f37-c756c67c3cf0</tstamps>
+    </comp>
+    <comp ref="P11">
+      <value>SSW-101-01-T-S</value>
+      <footprint>Connector_custom:SSW-101-01-T-S</footprint>
+      <libsource lib="Connector_custom" part="SSW-101-01-T-S" description=""/>
+      <property name="Sheetname" value="CubePins-1"/>
+      <property name="Sheetfile" value="CubePins-1.kicad_sch"/>
+      <sheetpath names="/CubePins-1/" tstamps="/b8b220b8-f78d-4085-b273-e047da16e1bd/"/>
+      <tstamps>cc3129d7-9334-42ea-a5bb-30102b212b04</tstamps>
+    </comp>
+    <comp ref="P12">
+      <value>SSW-101-01-T-S</value>
+      <footprint>Connector_custom:SSW-101-01-T-S</footprint>
+      <libsource lib="Connector_custom" part="SSW-101-01-T-S" description=""/>
+      <property name="Sheetname" value="CubePins-1"/>
+      <property name="Sheetfile" value="CubePins-1.kicad_sch"/>
+      <sheetpath names="/CubePins-1/" tstamps="/b8b220b8-f78d-4085-b273-e047da16e1bd/"/>
+      <tstamps>4ca2bfd0-5aab-4de6-944c-e9644a8f10d0</tstamps>
+    </comp>
+    <comp ref="P13">
+      <value>SSW-101-01-T-S</value>
+      <footprint>Connector_custom:SSW-101-01-T-S</footprint>
+      <libsource lib="Connector_custom" part="SSW-101-01-T-S" description=""/>
+      <property name="Sheetname" value="CubePins-1"/>
+      <property name="Sheetfile" value="CubePins-1.kicad_sch"/>
+      <sheetpath names="/CubePins-1/" tstamps="/b8b220b8-f78d-4085-b273-e047da16e1bd/"/>
+      <tstamps>1d170e02-1824-43c2-bc4d-8c674b8c64d9</tstamps>
+    </comp>
+    <comp ref="P14">
+      <value>SSW-101-01-T-S</value>
+      <footprint>Connector_custom:SSW-101-01-T-S</footprint>
+      <libsource lib="Connector_custom" part="SSW-101-01-T-S" description=""/>
+      <property name="Sheetname" value="CubePins-1"/>
+      <property name="Sheetfile" value="CubePins-1.kicad_sch"/>
+      <sheetpath names="/CubePins-1/" tstamps="/b8b220b8-f78d-4085-b273-e047da16e1bd/"/>
+      <tstamps>bd3d4530-4166-4f00-877c-af679bdb654a</tstamps>
+    </comp>
+    <comp ref="P15">
+      <value>SSW-101-01-T-S</value>
+      <footprint>Connector_custom:SSW-101-01-T-S</footprint>
+      <libsource lib="Connector_custom" part="SSW-101-01-T-S" description=""/>
+      <property name="Sheetname" value="CubePins-1"/>
+      <property name="Sheetfile" value="CubePins-1.kicad_sch"/>
+      <sheetpath names="/CubePins-1/" tstamps="/b8b220b8-f78d-4085-b273-e047da16e1bd/"/>
+      <tstamps>8074a0fd-c151-4fad-9734-12952eb8c7f4</tstamps>
+    </comp>
+    <comp ref="P16">
+      <value>SSW-101-01-T-S</value>
+      <footprint>Connector_custom:SSW-101-01-T-S</footprint>
+      <libsource lib="Connector_custom" part="SSW-101-01-T-S" description=""/>
+      <property name="Sheetname" value="CubePins-1"/>
+      <property name="Sheetfile" value="CubePins-1.kicad_sch"/>
+      <sheetpath names="/CubePins-1/" tstamps="/b8b220b8-f78d-4085-b273-e047da16e1bd/"/>
+      <tstamps>a9bc2d04-f92c-42dd-9090-bd77c9502bf1</tstamps>
+    </comp>
+    <comp ref="Q6">
+      <value>BCM53DSX</value>
+      <footprint>Package_SO_custom:SC-74-6_1.5x2.9mm_P0.95mm</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BCM53DS.pdf</datasheet>
+      <libsource lib="Transistor_BJT_custom" part="BCM53DSX" description=""/>
+      <property name="Sheetname" value="CubePins-1"/>
+      <property name="Sheetfile" value="CubePins-1.kicad_sch"/>
+      <sheetpath names="/CubePins-1/" tstamps="/b8b220b8-f78d-4085-b273-e047da16e1bd/"/>
+      <tstamps>25411475-e584-4e18-935c-91ad77579806 0c4680b7-c58a-4675-b0c8-c3d7610d0437</tstamps>
+    </comp>
+    <comp ref="Q7">
+      <value>BCM53DSX</value>
+      <footprint>Package_SO_custom:SC-74-6_1.5x2.9mm_P0.95mm</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BCM53DS.pdf</datasheet>
+      <libsource lib="Transistor_BJT_custom" part="BCM53DSX" description=""/>
+      <property name="Sheetname" value="CubePins-1"/>
+      <property name="Sheetfile" value="CubePins-1.kicad_sch"/>
+      <sheetpath names="/CubePins-1/" tstamps="/b8b220b8-f78d-4085-b273-e047da16e1bd/"/>
+      <tstamps>f1015086-2670-4113-87cb-4bf363f72122 3316c423-0503-47bf-971a-8b8e0d701afc</tstamps>
+    </comp>
+    <comp ref="Q8">
+      <value>BCM53DSX</value>
+      <footprint>Package_SO_custom:SC-74-6_1.5x2.9mm_P0.95mm</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BCM53DS.pdf</datasheet>
+      <libsource lib="Transistor_BJT_custom" part="BCM53DSX" description=""/>
+      <property name="Sheetname" value="CubePins-1"/>
+      <property name="Sheetfile" value="CubePins-1.kicad_sch"/>
+      <sheetpath names="/CubePins-1/" tstamps="/b8b220b8-f78d-4085-b273-e047da16e1bd/"/>
+      <tstamps>bf8ec6e0-707d-4104-9ceb-3bcb068bd5ed 301b7ba5-f9f8-49fd-aa7d-2da5914d88d1</tstamps>
+    </comp>
+    <comp ref="Q9">
+      <value>BCM53DSX</value>
+      <footprint>Package_SO_custom:SC-74-6_1.5x2.9mm_P0.95mm</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BCM53DS.pdf</datasheet>
+      <libsource lib="Transistor_BJT_custom" part="BCM53DSX" description=""/>
+      <property name="Sheetname" value="CubePins-1"/>
+      <property name="Sheetfile" value="CubePins-1.kicad_sch"/>
+      <sheetpath names="/CubePins-1/" tstamps="/b8b220b8-f78d-4085-b273-e047da16e1bd/"/>
+      <tstamps>9fa0207a-271b-4638-b3b2-78ee06d87a14 1e21ab28-6057-443e-8120-a9306f70742c</tstamps>
+    </comp>
+    <comp ref="Q10">
+      <value>BCM53DSX</value>
+      <footprint>Package_SO_custom:SC-74-6_1.5x2.9mm_P0.95mm</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BCM53DS.pdf</datasheet>
+      <libsource lib="Transistor_BJT_custom" part="BCM53DSX" description=""/>
+      <property name="Sheetname" value="CubePins-1"/>
+      <property name="Sheetfile" value="CubePins-1.kicad_sch"/>
+      <sheetpath names="/CubePins-1/" tstamps="/b8b220b8-f78d-4085-b273-e047da16e1bd/"/>
+      <tstamps>45f51b75-78ff-45a3-bcff-23a9399034fc 1ca5ad96-fc1d-4fb7-8bb5-7a76dbe49173</tstamps>
+    </comp>
+    <comp ref="Q11">
+      <value>BCM53DSX</value>
+      <footprint>Package_SO_custom:SC-74-6_1.5x2.9mm_P0.95mm</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BCM53DS.pdf</datasheet>
+      <libsource lib="Transistor_BJT_custom" part="BCM53DSX" description=""/>
+      <property name="Sheetname" value="CubePins-1"/>
+      <property name="Sheetfile" value="CubePins-1.kicad_sch"/>
+      <sheetpath names="/CubePins-1/" tstamps="/b8b220b8-f78d-4085-b273-e047da16e1bd/"/>
+      <tstamps>e451d406-0ad2-49b0-ac0a-81a48e3add4b 8f0cf1bb-9e27-453a-9f57-1b8a81fb8c96</tstamps>
+    </comp>
+    <comp ref="Q12">
+      <value>BCM53DSX</value>
+      <footprint>Package_SO_custom:SC-74-6_1.5x2.9mm_P0.95mm</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BCM53DS.pdf</datasheet>
+      <libsource lib="Transistor_BJT_custom" part="BCM53DSX" description=""/>
+      <property name="Sheetname" value="CubePins-1"/>
+      <property name="Sheetfile" value="CubePins-1.kicad_sch"/>
+      <sheetpath names="/CubePins-1/" tstamps="/b8b220b8-f78d-4085-b273-e047da16e1bd/"/>
+      <tstamps>3ff556e9-9f1f-4e0b-8562-924e2677d72e 1e88a4a5-78b7-4838-a8fb-363beefe9028</tstamps>
+    </comp>
+    <comp ref="Q13">
+      <value>BCM53DSX</value>
+      <footprint>Package_SO_custom:SC-74-6_1.5x2.9mm_P0.95mm</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/BCM53DS.pdf</datasheet>
+      <libsource lib="Transistor_BJT_custom" part="BCM53DSX" description=""/>
+      <property name="Sheetname" value="CubePins-1"/>
+      <property name="Sheetfile" value="CubePins-1.kicad_sch"/>
+      <sheetpath names="/CubePins-1/" tstamps="/b8b220b8-f78d-4085-b273-e047da16e1bd/"/>
+      <tstamps>f44eb33a-c09d-4863-b220-30ac361f7206 f36d063f-8697-4e23-ab4c-ac782cd5ff90</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>RC0402JR-070RP</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Power">1/16W</field>
+        <field name="Resistance">0</field>
+      </fields>
+      <libsource lib="Resistor_custom" part="RC0402JR-070RP" description="Resistor, US symbol"/>
+      <property name="Resistance" value="0"/>
+      <property name="Power" value="1/16W"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="CubePins-1"/>
+      <property name="Sheetfile" value="CubePins-1.kicad_sch"/>
+      <sheetpath names="/CubePins-1/" tstamps="/b8b220b8-f78d-4085-b273-e047da16e1bd/"/>
+      <tstamps>ca305457-2743-4ad4-b333-e8f34943f72f</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>RC0402JR-070RP</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Power">1/16W</field>
+        <field name="Resistance">0</field>
+      </fields>
+      <libsource lib="Resistor_custom" part="RC0402JR-070RP" description="Resistor, US symbol"/>
+      <property name="Resistance" value="0"/>
+      <property name="Power" value="1/16W"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="CubePins-1"/>
+      <property name="Sheetfile" value="CubePins-1.kicad_sch"/>
+      <sheetpath names="/CubePins-1/" tstamps="/b8b220b8-f78d-4085-b273-e047da16e1bd/"/>
+      <tstamps>128d14eb-fbce-496e-8d30-c64af7294b0a</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>RC0402JR-070RP</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Power">1/16W</field>
+        <field name="Resistance">0</field>
+      </fields>
+      <libsource lib="Resistor_custom" part="RC0402JR-070RP" description="Resistor, US symbol"/>
+      <property name="Resistance" value="0"/>
+      <property name="Power" value="1/16W"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="CubePins-1"/>
+      <property name="Sheetfile" value="CubePins-1.kicad_sch"/>
+      <sheetpath names="/CubePins-1/" tstamps="/b8b220b8-f78d-4085-b273-e047da16e1bd/"/>
+      <tstamps>292f5c55-b575-468f-bc4a-b148a0a376d1</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>RC0402JR-070RP</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Power">1/16W</field>
+        <field name="Resistance">0</field>
+      </fields>
+      <libsource lib="Resistor_custom" part="RC0402JR-070RP" description="Resistor, US symbol"/>
+      <property name="Resistance" value="0"/>
+      <property name="Power" value="1/16W"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="CubePins-1"/>
+      <property name="Sheetfile" value="CubePins-1.kicad_sch"/>
+      <sheetpath names="/CubePins-1/" tstamps="/b8b220b8-f78d-4085-b273-e047da16e1bd/"/>
+      <tstamps>e63a9670-e9b4-4546-b705-ff9f809dbf0d</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>RC0402JR-070RP</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Power">1/16W</field>
+        <field name="Resistance">0</field>
+      </fields>
+      <libsource lib="Resistor_custom" part="RC0402JR-070RP" description="Resistor, US symbol"/>
+      <property name="Resistance" value="0"/>
+      <property name="Power" value="1/16W"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="CubePins-1"/>
+      <property name="Sheetfile" value="CubePins-1.kicad_sch"/>
+      <sheetpath names="/CubePins-1/" tstamps="/b8b220b8-f78d-4085-b273-e047da16e1bd/"/>
+      <tstamps>9ba46520-5a7d-415f-a02d-53d40b27dbb4</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>RC0402JR-070RP</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Power">1/16W</field>
+        <field name="Resistance">0</field>
+      </fields>
+      <libsource lib="Resistor_custom" part="RC0402JR-070RP" description="Resistor, US symbol"/>
+      <property name="Resistance" value="0"/>
+      <property name="Power" value="1/16W"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="CubePins-1"/>
+      <property name="Sheetfile" value="CubePins-1.kicad_sch"/>
+      <sheetpath names="/CubePins-1/" tstamps="/b8b220b8-f78d-4085-b273-e047da16e1bd/"/>
+      <tstamps>ce0d0e4f-613f-4842-9686-91f8232f8dcb</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>RC0402JR-070RP</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Power">1/16W</field>
+        <field name="Resistance">0</field>
+      </fields>
+      <libsource lib="Resistor_custom" part="RC0402JR-070RP" description="Resistor, US symbol"/>
+      <property name="Resistance" value="0"/>
+      <property name="Power" value="1/16W"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="CubePins-1"/>
+      <property name="Sheetfile" value="CubePins-1.kicad_sch"/>
+      <sheetpath names="/CubePins-1/" tstamps="/b8b220b8-f78d-4085-b273-e047da16e1bd/"/>
+      <tstamps>10cf0bfc-b0d7-43a2-8ed8-b9c64361c786</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>RC0402JR-070RP</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Power">1/16W</field>
+        <field name="Resistance">0</field>
+      </fields>
+      <libsource lib="Resistor_custom" part="RC0402JR-070RP" description="Resistor, US symbol"/>
+      <property name="Resistance" value="0"/>
+      <property name="Power" value="1/16W"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="CubePins-1"/>
+      <property name="Sheetfile" value="CubePins-1.kicad_sch"/>
+      <sheetpath names="/CubePins-1/" tstamps="/b8b220b8-f78d-4085-b273-e047da16e1bd/"/>
+      <tstamps>10f3481b-5aee-40dc-b684-93a805cbdfd7</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>RC0402JR-070RP</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Power">1/16W</field>
+        <field name="Resistance">0</field>
+      </fields>
+      <libsource lib="Resistor_custom" part="RC0402JR-070RP" description="Resistor, US symbol"/>
+      <property name="Resistance" value="0"/>
+      <property name="Power" value="1/16W"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="CubePins-1"/>
+      <property name="Sheetfile" value="CubePins-1.kicad_sch"/>
+      <sheetpath names="/CubePins-1/" tstamps="/b8b220b8-f78d-4085-b273-e047da16e1bd/"/>
+      <tstamps>82f08da9-28e9-47f3-92ef-90cb157f0ce3</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>RC0402JR-070RP</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Power">1/16W</field>
+        <field name="Resistance">0</field>
+      </fields>
+      <libsource lib="Resistor_custom" part="RC0402JR-070RP" description="Resistor, US symbol"/>
+      <property name="Resistance" value="0"/>
+      <property name="Power" value="1/16W"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="CubePins-1"/>
+      <property name="Sheetfile" value="CubePins-1.kicad_sch"/>
+      <sheetpath names="/CubePins-1/" tstamps="/b8b220b8-f78d-4085-b273-e047da16e1bd/"/>
+      <tstamps>03ac232c-66ed-4a42-adae-8b58c550470d</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>RC0402JR-070RP</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Power">1/16W</field>
+        <field name="Resistance">0</field>
+      </fields>
+      <libsource lib="Resistor_custom" part="RC0402JR-070RP" description="Resistor, US symbol"/>
+      <property name="Resistance" value="0"/>
+      <property name="Power" value="1/16W"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="CubePins-1"/>
+      <property name="Sheetfile" value="CubePins-1.kicad_sch"/>
+      <sheetpath names="/CubePins-1/" tstamps="/b8b220b8-f78d-4085-b273-e047da16e1bd/"/>
+      <tstamps>1f671bcb-3fdc-446b-8bc4-1320faa790f5</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>RC0402JR-070RP</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Power">1/16W</field>
+        <field name="Resistance">0</field>
+      </fields>
+      <libsource lib="Resistor_custom" part="RC0402JR-070RP" description="Resistor, US symbol"/>
+      <property name="Resistance" value="0"/>
+      <property name="Power" value="1/16W"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="CubePins-1"/>
+      <property name="Sheetfile" value="CubePins-1.kicad_sch"/>
+      <sheetpath names="/CubePins-1/" tstamps="/b8b220b8-f78d-4085-b273-e047da16e1bd/"/>
+      <tstamps>447434f8-9ccb-440c-b43b-614157c94e7d</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>RC0402JR-070RP</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Power">1/16W</field>
+        <field name="Resistance">0</field>
+      </fields>
+      <libsource lib="Resistor_custom" part="RC0402JR-070RP" description="Resistor, US symbol"/>
+      <property name="Resistance" value="0"/>
+      <property name="Power" value="1/16W"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="CubePins-1"/>
+      <property name="Sheetfile" value="CubePins-1.kicad_sch"/>
+      <sheetpath names="/CubePins-1/" tstamps="/b8b220b8-f78d-4085-b273-e047da16e1bd/"/>
+      <tstamps>17e7b224-a0b5-4621-86b9-d42276759113</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>RC0402JR-070RP</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Power">1/16W</field>
+        <field name="Resistance">0</field>
+      </fields>
+      <libsource lib="Resistor_custom" part="RC0402JR-070RP" description="Resistor, US symbol"/>
+      <property name="Resistance" value="0"/>
+      <property name="Power" value="1/16W"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="CubePins-1"/>
+      <property name="Sheetfile" value="CubePins-1.kicad_sch"/>
+      <sheetpath names="/CubePins-1/" tstamps="/b8b220b8-f78d-4085-b273-e047da16e1bd/"/>
+      <tstamps>ef3bff57-9e85-4544-b902-bba9ac6ec83e</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>RC0402JR-070RP</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Power">1/16W</field>
+        <field name="Resistance">0</field>
+      </fields>
+      <libsource lib="Resistor_custom" part="RC0402JR-070RP" description="Resistor, US symbol"/>
+      <property name="Resistance" value="0"/>
+      <property name="Power" value="1/16W"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="CubePins-1"/>
+      <property name="Sheetfile" value="CubePins-1.kicad_sch"/>
+      <sheetpath names="/CubePins-1/" tstamps="/b8b220b8-f78d-4085-b273-e047da16e1bd/"/>
+      <tstamps>55e53c0a-e1a3-4f4f-b1ff-01d0538964e7</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>RC0402JR-070RP</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Power">1/16W</field>
+        <field name="Resistance">0</field>
+      </fields>
+      <libsource lib="Resistor_custom" part="RC0402JR-070RP" description="Resistor, US symbol"/>
+      <property name="Resistance" value="0"/>
+      <property name="Power" value="1/16W"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="CubePins-1"/>
+      <property name="Sheetfile" value="CubePins-1.kicad_sch"/>
+      <sheetpath names="/CubePins-1/" tstamps="/b8b220b8-f78d-4085-b273-e047da16e1bd/"/>
+      <tstamps>2f19bc44-803e-48e5-93a0-206582b68414</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>RC0402FR-0710KL</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Power">1/16W</field>
+        <field name="Resistance">10k</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Resistor_custom" part="RC0402FR-0710KL" description="Resistor, US symbol"/>
+      <property name="Resistance" value="10k"/>
+      <property name="Power" value="1/16W"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="CubePins-1"/>
+      <property name="Sheetfile" value="CubePins-1.kicad_sch"/>
+      <sheetpath names="/CubePins-1/" tstamps="/b8b220b8-f78d-4085-b273-e047da16e1bd/"/>
+      <tstamps>6a4f4c9c-a3bc-4af3-a1e0-c41cee0a8083</tstamps>
+    </comp>
+    <comp ref="R33">
+      <value>RC0402FR-0710KL</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Power">1/16W</field>
+        <field name="Resistance">10k</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Resistor_custom" part="RC0402FR-0710KL" description="Resistor, US symbol"/>
+      <property name="Resistance" value="10k"/>
+      <property name="Power" value="1/16W"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="CubePins-1"/>
+      <property name="Sheetfile" value="CubePins-1.kicad_sch"/>
+      <sheetpath names="/CubePins-1/" tstamps="/b8b220b8-f78d-4085-b273-e047da16e1bd/"/>
+      <tstamps>774b6cfa-659f-4610-b283-db47cdf1c366</tstamps>
+    </comp>
+    <comp ref="R34">
+      <value>RC0402FR-0710KL</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Power">1/16W</field>
+        <field name="Resistance">10k</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Resistor_custom" part="RC0402FR-0710KL" description="Resistor, US symbol"/>
+      <property name="Resistance" value="10k"/>
+      <property name="Power" value="1/16W"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="CubePins-1"/>
+      <property name="Sheetfile" value="CubePins-1.kicad_sch"/>
+      <sheetpath names="/CubePins-1/" tstamps="/b8b220b8-f78d-4085-b273-e047da16e1bd/"/>
+      <tstamps>37db123a-7778-433f-a41c-f7c25d8e82fa</tstamps>
+    </comp>
+    <comp ref="R35">
+      <value>RC0402FR-0710KL</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Power">1/16W</field>
+        <field name="Resistance">10k</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Resistor_custom" part="RC0402FR-0710KL" description="Resistor, US symbol"/>
+      <property name="Resistance" value="10k"/>
+      <property name="Power" value="1/16W"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="CubePins-1"/>
+      <property name="Sheetfile" value="CubePins-1.kicad_sch"/>
+      <sheetpath names="/CubePins-1/" tstamps="/b8b220b8-f78d-4085-b273-e047da16e1bd/"/>
+      <tstamps>47327404-9792-4780-ba7b-2f07196841f2</tstamps>
+    </comp>
+    <comp ref="R36">
+      <value>RC0402FR-0710KL</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Power">1/16W</field>
+        <field name="Resistance">10k</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Resistor_custom" part="RC0402FR-0710KL" description="Resistor, US symbol"/>
+      <property name="Resistance" value="10k"/>
+      <property name="Power" value="1/16W"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="CubePins-1"/>
+      <property name="Sheetfile" value="CubePins-1.kicad_sch"/>
+      <sheetpath names="/CubePins-1/" tstamps="/b8b220b8-f78d-4085-b273-e047da16e1bd/"/>
+      <tstamps>5517d664-2282-446b-bfb5-b5b7bc0ff97c</tstamps>
+    </comp>
+    <comp ref="R37">
+      <value>RC0402FR-0710KL</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Power">1/16W</field>
+        <field name="Resistance">10k</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Resistor_custom" part="RC0402FR-0710KL" description="Resistor, US symbol"/>
+      <property name="Resistance" value="10k"/>
+      <property name="Power" value="1/16W"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="CubePins-1"/>
+      <property name="Sheetfile" value="CubePins-1.kicad_sch"/>
+      <sheetpath names="/CubePins-1/" tstamps="/b8b220b8-f78d-4085-b273-e047da16e1bd/"/>
+      <tstamps>673850ab-e786-4c7f-9163-c690c65bb494</tstamps>
+    </comp>
+    <comp ref="R38">
+      <value>RC0402FR-0710KL</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Power">1/16W</field>
+        <field name="Resistance">10k</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Resistor_custom" part="RC0402FR-0710KL" description="Resistor, US symbol"/>
+      <property name="Resistance" value="10k"/>
+      <property name="Power" value="1/16W"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="CubePins-1"/>
+      <property name="Sheetfile" value="CubePins-1.kicad_sch"/>
+      <sheetpath names="/CubePins-1/" tstamps="/b8b220b8-f78d-4085-b273-e047da16e1bd/"/>
+      <tstamps>14f450ad-f92f-40c6-a1cb-41cade71a80d</tstamps>
+    </comp>
+    <comp ref="R39">
+      <value>RC0402FR-0710KL</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Power">1/16W</field>
+        <field name="Resistance">10k</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Resistor_custom" part="RC0402FR-0710KL" description="Resistor, US symbol"/>
+      <property name="Resistance" value="10k"/>
+      <property name="Power" value="1/16W"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="CubePins-1"/>
+      <property name="Sheetfile" value="CubePins-1.kicad_sch"/>
+      <sheetpath names="/CubePins-1/" tstamps="/b8b220b8-f78d-4085-b273-e047da16e1bd/"/>
+      <tstamps>5646c56d-6904-4136-b3ff-197354d6b263</tstamps>
+    </comp>
+    <comp ref="R40">
+      <value>RC0402FR-0710KL</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Power">1/16W</field>
+        <field name="Resistance">10k</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Resistor_custom" part="RC0402FR-0710KL" description="Resistor, US symbol"/>
+      <property name="Resistance" value="10k"/>
+      <property name="Power" value="1/16W"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="CubePins-1"/>
+      <property name="Sheetfile" value="CubePins-1.kicad_sch"/>
+      <sheetpath names="/CubePins-1/" tstamps="/b8b220b8-f78d-4085-b273-e047da16e1bd/"/>
+      <tstamps>eaa02b55-f09d-4091-9db3-cb24d7dedf68</tstamps>
+    </comp>
+    <comp ref="R41">
+      <value>RC0402FR-0710KL</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Power">1/16W</field>
+        <field name="Resistance">10k</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Resistor_custom" part="RC0402FR-0710KL" description="Resistor, US symbol"/>
+      <property name="Resistance" value="10k"/>
+      <property name="Power" value="1/16W"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="CubePins-1"/>
+      <property name="Sheetfile" value="CubePins-1.kicad_sch"/>
+      <sheetpath names="/CubePins-1/" tstamps="/b8b220b8-f78d-4085-b273-e047da16e1bd/"/>
+      <tstamps>7702e709-6a87-4dec-85a8-b5f9154ba5df</tstamps>
+    </comp>
+    <comp ref="R42">
+      <value>RC0402FR-0710KL</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Power">1/16W</field>
+        <field name="Resistance">10k</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Resistor_custom" part="RC0402FR-0710KL" description="Resistor, US symbol"/>
+      <property name="Resistance" value="10k"/>
+      <property name="Power" value="1/16W"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="CubePins-1"/>
+      <property name="Sheetfile" value="CubePins-1.kicad_sch"/>
+      <sheetpath names="/CubePins-1/" tstamps="/b8b220b8-f78d-4085-b273-e047da16e1bd/"/>
+      <tstamps>a0c700a5-8692-4b00-b623-9da5b01e7e6d</tstamps>
+    </comp>
+    <comp ref="R43">
+      <value>RC0402FR-0710KL</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Power">1/16W</field>
+        <field name="Resistance">10k</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Resistor_custom" part="RC0402FR-0710KL" description="Resistor, US symbol"/>
+      <property name="Resistance" value="10k"/>
+      <property name="Power" value="1/16W"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="CubePins-1"/>
+      <property name="Sheetfile" value="CubePins-1.kicad_sch"/>
+      <sheetpath names="/CubePins-1/" tstamps="/b8b220b8-f78d-4085-b273-e047da16e1bd/"/>
+      <tstamps>a17376e3-d582-4a75-8354-459000d03f1b</tstamps>
+    </comp>
+    <comp ref="R44">
+      <value>RC0402FR-0710KL</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Power">1/16W</field>
+        <field name="Resistance">10k</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Resistor_custom" part="RC0402FR-0710KL" description="Resistor, US symbol"/>
+      <property name="Resistance" value="10k"/>
+      <property name="Power" value="1/16W"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="CubePins-1"/>
+      <property name="Sheetfile" value="CubePins-1.kicad_sch"/>
+      <sheetpath names="/CubePins-1/" tstamps="/b8b220b8-f78d-4085-b273-e047da16e1bd/"/>
+      <tstamps>409bf246-fdb6-42e8-8194-2a49fa847ee6</tstamps>
+    </comp>
+    <comp ref="R45">
+      <value>RC0402FR-0710KL</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Power">1/16W</field>
+        <field name="Resistance">10k</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Resistor_custom" part="RC0402FR-0710KL" description="Resistor, US symbol"/>
+      <property name="Resistance" value="10k"/>
+      <property name="Power" value="1/16W"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="CubePins-1"/>
+      <property name="Sheetfile" value="CubePins-1.kicad_sch"/>
+      <sheetpath names="/CubePins-1/" tstamps="/b8b220b8-f78d-4085-b273-e047da16e1bd/"/>
+      <tstamps>31451d60-3b18-497d-af29-f77ee5cb79e1</tstamps>
+    </comp>
+    <comp ref="R46">
+      <value>RC0402FR-0710KL</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Power">1/16W</field>
+        <field name="Resistance">10k</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Resistor_custom" part="RC0402FR-0710KL" description="Resistor, US symbol"/>
+      <property name="Resistance" value="10k"/>
+      <property name="Power" value="1/16W"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="CubePins-1"/>
+      <property name="Sheetfile" value="CubePins-1.kicad_sch"/>
+      <sheetpath names="/CubePins-1/" tstamps="/b8b220b8-f78d-4085-b273-e047da16e1bd/"/>
+      <tstamps>af4277fc-397b-4528-9394-8d72f0ff2b60</tstamps>
+    </comp>
+    <comp ref="R47">
+      <value>RC0402FR-0710KL</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</footprint>
+      <fields>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Power">1/16W</field>
+        <field name="Resistance">10k</field>
+        <field name="Tolerance">1%</field>
+      </fields>
+      <libsource lib="Resistor_custom" part="RC0402FR-0710KL" description="Resistor, US symbol"/>
+      <property name="Resistance" value="10k"/>
+      <property name="Power" value="1/16W"/>
+      <property name="Tolerance" value="1%"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Sheetname" value="CubePins-1"/>
+      <property name="Sheetfile" value="CubePins-1.kicad_sch"/>
+      <sheetpath names="/CubePins-1/" tstamps="/b8b220b8-f78d-4085-b273-e047da16e1bd/"/>
+      <tstamps>eba31866-95c3-428f-b6a7-d6c08cd9a7fc</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Amplifier_Operational_Custom" part="MCP6L01Rx-xOT">
+      <description>Single, 1 MHz, 85µA, Rail-to-Rail input and ouput, SOT-23-5</description>
+      <docs>http://ww1.microchip.com/downloads/en/devicedoc/22140b.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP6L01Rx-xOT</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/devicedoc/22140b.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="output"/>
+        <pin num="2" name="V+" type="power_in"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="-" type="input"/>
+        <pin num="5" name="V-" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Capacitor_custom" part="CC0402KRX5R5BB105">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CC0402KRX5R5BB105</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Capacitance">1u</field>
+        <field name="Voltage">6.3V</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Rating">X5R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Capacitor_custom" part="CL21A106KPCLQNC">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CL21A106KPCLQNC</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Capacitance">10u</field>
+        <field name="Voltage">10V</field>
+        <field name="Manufacturer">Samsung</field>
+        <field name="Rating">X5R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Capacitor_custom" part="GCM155R71H103KA55D">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">GCM155R71H103KA55D</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Capacitance">10n</field>
+        <field name="Voltage">50V</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Rating">X7R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Capacitor_custom" part="GCM155R71H103KA55D_1">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">GCM155R71H103KA55D_1</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Capacitance">4.7n</field>
+        <field name="Voltage">100V</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Rating">X7R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Capacitor_custom" part="GRM1555C1H101JA01J">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">GRM1555C1H101JA01J</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Capacitance">100p</field>
+        <field name="Voltage">50V</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Rating">C0G</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Capacitor_custom" part="GRM155R71H104KE14D">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">GRM155R71H104KE14D</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Capacitance">100n</field>
+        <field name="Voltage">50V</field>
+        <field name="Manufacturer">Murata</field>
+        <field name="Rating">X7R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_ARM_JTAG_SWD_10">
+      <description>Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface</description>
+      <docs>http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf</docs>
+      <footprints>
+        <fp>PinHeader?2x05?P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_ARM_JTAG_SWD_10</field>
+        <field name="Datasheet">http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VTref" type="power_in"/>
+        <pin num="2" name="SWDIO/TMS" type="bidirectional"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="SWDCLK/TCK" type="output"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="SWO/TDO" type="input"/>
+        <pin num="7" name="KEY" type="no_connect"/>
+        <pin num="8" name="NC/TDI" type="output"/>
+        <pin num="9" name="GNDDetect" type="passive"/>
+        <pin num="10" name="~{RESET}" type="open_collector"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_custom" part="SSW-101-01-T-S">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">SSW-101-01-T-S</field>
+        <field name="Footprint">Connector_custom:SSW-101-01-T-S</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_custom" part="SSW-104-01-T-S">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">SSW-104-01-T-S</field>
+        <field name="Footprint">Connector_custom:SSW-104-01-T-S</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device_custom" part="0685T5000">
+      <description>Fuse</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*Fuse*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">0685T5000</field>
+        <field name="Footprint">Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Current Rating">5A</field>
+        <field name="Voltage Rating - DC">63V</field>
+        <field name="Response Time">Slow Blow</field>
+        <field name="Manufacturer">Bel Fuse Inc.</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device_custom" part="150060RS75000">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">150060RS75000</field>
+        <field name="Footprint">LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Manufacturer">Würth</field>
+        <field name="Color">Red</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Inductor_custom" part="CBC2518T100M">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">CBC2518T100M</field>
+        <field name="Footprint">Inductor_SMD:L_1008_2520Metric_Pad1.43x2.20mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Manufacturer">Taiyo Yuden</field>
+        <field name="Current">680mA</field>
+        <field name="DCR">468mOhm</field>
+        <field name="Inductance">10u</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Interface_Expansion" part="TPIC6595">
+      <description>Power Logic 8-bit Shift Register, DIP-8/SOIC-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tpic6595.pdf</docs>
+      <footprints>
+        <fp>SOIC*7.5x12.8mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPIC6595</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tpic6595.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PGND" type="power_in"/>
+        <pin num="2" name="VCC" type="power_in"/>
+        <pin num="3" name="SER_IN" type="input"/>
+        <pin num="4" name="DRAIN0" type="open_collector"/>
+        <pin num="5" name="DRAIN1" type="open_collector"/>
+        <pin num="6" name="DRAIN2" type="open_collector"/>
+        <pin num="7" name="DRAIN3" type="open_collector"/>
+        <pin num="8" name="~{SRCLR}" type="input"/>
+        <pin num="9" name="~{G}" type="input"/>
+        <pin num="10" name="PGND" type="passive"/>
+        <pin num="11" name="PGND" type="passive"/>
+        <pin num="12" name="RCLK" type="input"/>
+        <pin num="13" name="SRCK" type="input"/>
+        <pin num="14" name="DRAIN4" type="open_collector"/>
+        <pin num="15" name="DRAIN5" type="open_collector"/>
+        <pin num="16" name="DRAIN6" type="open_collector"/>
+        <pin num="17" name="DRAIN7" type="open_collector"/>
+        <pin num="18" name="SER_OUT" type="output"/>
+        <pin num="19" name="LGND" type="power_in"/>
+        <pin num="20" name="PGND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Microchip_SAMD" part="ATSAMD21E15B-A">
+      <description>SAM D21 Microchip SMART ARM-based Flash MCU, 48Mhz, 32K Flash w/ 1K RWW, 4K SRAM, TQFP-32</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/SAM_D21_DA1_Family_Data%20Sheet_DS40001882E.pdf</docs>
+      <footprints>
+        <fp>TQFP*7x7mm*P0.8mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATSAMD21E15B-A</field>
+        <field name="Footprint">Package_QFP:TQFP-32_7x7mm_P0.8mm</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/SAM_D21_DA1_Family_Data%20Sheet_DS40001882E.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PA00" type="bidirectional"/>
+        <pin num="2" name="PA01" type="bidirectional"/>
+        <pin num="3" name="PA02" type="bidirectional"/>
+        <pin num="4" name="PA03" type="bidirectional"/>
+        <pin num="5" name="PA04" type="bidirectional"/>
+        <pin num="6" name="PA05" type="bidirectional"/>
+        <pin num="7" name="PA06" type="bidirectional"/>
+        <pin num="8" name="PA07" type="bidirectional"/>
+        <pin num="9" name="VDDANA" type="power_in"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="PA08" type="bidirectional"/>
+        <pin num="12" name="PA09" type="bidirectional"/>
+        <pin num="13" name="PA10" type="bidirectional"/>
+        <pin num="14" name="PA11" type="bidirectional"/>
+        <pin num="15" name="PA14" type="bidirectional"/>
+        <pin num="16" name="PA15" type="bidirectional"/>
+        <pin num="17" name="PA16" type="bidirectional"/>
+        <pin num="18" name="PA17" type="bidirectional"/>
+        <pin num="19" name="PA18" type="bidirectional"/>
+        <pin num="20" name="PA19" type="bidirectional"/>
+        <pin num="21" name="PA22" type="bidirectional"/>
+        <pin num="22" name="PA23" type="bidirectional"/>
+        <pin num="23" name="PA24" type="bidirectional"/>
+        <pin num="24" name="PA25" type="bidirectional"/>
+        <pin num="25" name="PA27" type="bidirectional"/>
+        <pin num="26" name="~{RESET}" type="input"/>
+        <pin num="27" name="PA28" type="bidirectional"/>
+        <pin num="28" name="GND" type="passive"/>
+        <pin num="29" name="VDDCORE" type="power_out"/>
+        <pin num="30" name="VDDIN" type="power_in"/>
+        <pin num="31" name="PA30" type="bidirectional"/>
+        <pin num="32" name="PA31" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Protection_custom" part="D3V3F4U6S">
+      <description>4-Channel Low Capacitance TVS Diode Array, DFN-10</description>
+      <docs>https://www.diodes.com/assets/Datasheets/D3V3XA4B10LP.pdf</docs>
+      <footprints>
+        <fp>Diodes*UDFN*1.0x2.5mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">D3V3F4U6S</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-363_SC-70-6</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/D3V3XA4B10LP.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CH1" type="passive"/>
+        <pin num="2" name="Vn" type="power_in"/>
+        <pin num="3" name="CH2" type="passive"/>
+        <pin num="4" name="CH3" type="passive"/>
+        <pin num="5" name="Vp" type="power_out"/>
+        <pin num="6" name="CH4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="LD1117S33TR_SOT223">
+      <description>800mA Fixed Low Drop Positive Voltage Regulator, Fixed Output 3.3V, SOT-223</description>
+      <docs>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf</docs>
+      <footprints>
+        <fp>SOT?223*TabPin2*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LD1117S33TR_SOT223</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-223-3_TabPin2</field>
+        <field name="Datasheet">http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Resistor_custom" part="CFG0612-FX-R010ELF">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">CFG0612-FX-R010ELF</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Resistance">10m</field>
+        <field name="Power">1W</field>
+        <field name="Tolerance">1%</field>
+        <field name="Manufacturer">Bourns Inc.</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Resistor_custom" part="CRGCQ0402F1M0">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">CRGCQ0402F1M0</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Resistance">1M</field>
+        <field name="Power">1/16W</field>
+        <field name="Tolerance">1%</field>
+        <field name="Manufacturer">TE Connectivity Passive Product</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Resistor_custom" part="RC0402FR-07100KL">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RC0402FR-07100KL</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Resistance">100k</field>
+        <field name="Power">1/16W</field>
+        <field name="Tolerance">1%</field>
+        <field name="Manufacturer">Yageo</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Resistor_custom" part="RC0402FR-0710KL">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RC0402FR-0710KL</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Resistance">10k</field>
+        <field name="Power">1/16W</field>
+        <field name="Tolerance">1%</field>
+        <field name="Manufacturer">Yageo</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Resistor_custom" part="RC0402FR-07150KL">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RC0402FR-07150KL</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Resistance">150k</field>
+        <field name="Power">1/16W</field>
+        <field name="Tolerance">1%</field>
+        <field name="Manufacturer">Yageo</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Resistor_custom" part="RC0402FR-071K5L">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RC0402FR-071K5L</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Resistance">1.5k</field>
+        <field name="Power">1/16W</field>
+        <field name="Tolerance">1%</field>
+        <field name="Manufacturer">Yageo</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Resistor_custom" part="RC0402FR-071KL">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RC0402FR-071KL</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Resistance">1k</field>
+        <field name="Power">1/16W</field>
+        <field name="Tolerance">1%</field>
+        <field name="Manufacturer">Yageo</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Resistor_custom" part="RC0402FR-0720KL">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RC0402FR-0720KL</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Resistance">20k</field>
+        <field name="Power">1/16W</field>
+        <field name="Tolerance">1%</field>
+        <field name="Manufacturer">Yageo</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Resistor_custom" part="RC0402FR-07330RL">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RC0402FR-07330RL</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Resistance">330</field>
+        <field name="Power">1/16W</field>
+        <field name="Tolerance">1%</field>
+        <field name="Manufacturer">Yageo</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Resistor_custom" part="RC0402FR-075K1L">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RC0402FR-075K1L</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Resistance">5.1k</field>
+        <field name="Power">1/16W</field>
+        <field name="Tolerance">1%</field>
+        <field name="Manufacturer">Yageo</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Resistor_custom" part="RC0402FR-076K2L">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RC0402FR-076K2L</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Resistance">6.2k</field>
+        <field name="Power">1/16W</field>
+        <field name="Tolerance">1%</field>
+        <field name="Manufacturer">Yageo</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Resistor_custom" part="RC0402FR-0782KL">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RC0402FR-0782KL</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Resistance">82k</field>
+        <field name="Power">1/16W</field>
+        <field name="Tolerance">1%</field>
+        <field name="Manufacturer">Yageo</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Resistor_custom" part="RC0402JR-070RP">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RC0402JR-070RP</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Resistance">0</field>
+        <field name="Power">1/16W</field>
+        <field name="Manufacturer">Yageo</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Resistor_custom" part="RC0402JR-0710KL">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RC0402JR-0710KL</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Resistance">10k</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Resistor_custom" part="RC0402JR-071KL">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RC0402JR-071KL</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Resistance">1k</field>
+        <field name="Power">1/16W</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Resistor_custom" part="RK73H1ETTP2201F">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RK73H1ETTP2201F</field>
+        <field name="Footprint">Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="Resistance">2.2k</field>
+        <field name="Power">1/10W</field>
+        <field name="Tolerance">1%</field>
+        <field name="Manufacturer">KOA Speer Electronics, Inc.</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch_custom" part="PTS645SH50SMTR92 LFS">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">PTS645SH50SMTR92 LFS</field>
+        <field name="Footprint">Button_Switch_SMD_custom:SW_Push_1P1T_NO_6x6mm_H9.5mm</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT_custom" part="BCM53DSX">
+      <docs>https://assets.nexperia.com/documents/data-sheet/BCM53DS.pdf</docs>
+      <footprints>
+        <fp>SOT?363*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BCM53DSX</field>
+        <field name="Footprint">Package_SO_custom:SC-74-6_1.5x2.9mm_P0.95mm</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/BCM53DS.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B2" type="input"/>
+        <pin num="2" name="B2" type="input"/>
+        <pin num="3" name="C2" type="passive"/>
+        <pin num="4" name="E2" type="passive"/>
+        <pin num="5" name="E2" type="passive"/>
+        <pin num="6" name="C2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT_custom" part="PMBT3904">
+      <description>0.2A Ic, 40V Vce, Small Signal NPN Transistor</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/PMBT3904.pdf</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">PMBT3904</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/PMBT3904.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="DMG2302U">
+      <description>4.2A Id, 20V Vds, N-Channel MOSFET, SOT-23</description>
+      <docs>http://www.diodes.com/assets/Datasheets/DMG2302U.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">DMG2302U</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://www.diodes.com/assets/Datasheets/DMG2302U.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="USB4085-GF-A_REVA" part="USB4085-GF-A_REVA">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB4085-GF-A_REVA</field>
+        <field name="Footprint">GCT_USB4085-GF-A_REVA</field>
+        <field name="PARTREV">A2</field>
+        <field name="MANUFACTURER">Global Connector Technology</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">3.46mm</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND" type="passive"/>
+        <pin num="A4" name="VBUS" type="power_in"/>
+        <pin num="A5" name="CC1" type="bidirectional"/>
+        <pin num="A6" name="DP1" type="bidirectional"/>
+        <pin num="A7" name="DN1" type="bidirectional"/>
+        <pin num="A8" name="SBU1" type="bidirectional"/>
+        <pin num="A9" name="VBUS" type="power_in"/>
+        <pin num="A12" name="GND" type="passive"/>
+        <pin num="B1" name="GND" type="passive"/>
+        <pin num="B4" name="VBUS" type="power_in"/>
+        <pin num="B5" name="CC2" type="bidirectional"/>
+        <pin num="B6" name="DP2" type="bidirectional"/>
+        <pin num="B7" name="DN2" type="bidirectional"/>
+        <pin num="B8" name="SBU2" type="bidirectional"/>
+        <pin num="B9" name="VBUS" type="power_in"/>
+        <pin num="B12" name="GND" type="passive"/>
+        <pin num="P1" name="SHELL" type="passive"/>
+        <pin num="P2" name="SHELL" type="passive"/>
+        <pin num="P3" name="SHELL" type="passive"/>
+        <pin num="P4" name="SHELL" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Amplifier_Operational_Custom">
+      <uri>/home/andy/.kicad/library//Amplifier_Operational_Custom.kicad_sym</uri>
+    </library>
+    <library logical="Capacitor_custom">
+      <uri>/home/andy/.kicad/library//Capacitor_custom.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/usr/share/kicad-nightly/library//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_custom">
+      <uri>/home/andy/.kicad/library//Connector_custom.kicad_sym</uri>
+    </library>
+    <library logical="Device_custom">
+      <uri>/home/andy/.kicad/library//Device_custom.kicad_sym</uri>
+    </library>
+    <library logical="Inductor_custom">
+      <uri>/home/andy/.kicad/library//Inductor_custom.kicad_sym</uri>
+    </library>
+    <library logical="Interface_Expansion">
+      <uri>/usr/share/kicad-nightly/library//Interface_Expansion.kicad_sym</uri>
+    </library>
+    <library logical="MCU_Microchip_SAMD">
+      <uri>/usr/share/kicad-nightly/library//MCU_Microchip_SAMD.kicad_sym</uri>
+    </library>
+    <library logical="Power_Protection_custom">
+      <uri>/shares/akron/kicad-libs/library/Power_Protection_custom.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/usr/share/kicad-nightly/library//Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Resistor_custom">
+      <uri>/home/andy/.kicad/library//Resistor_custom.kicad_sym</uri>
+    </library>
+    <library logical="Switch_custom">
+      <uri>/home/andy/.kicad/library//Switch_custom.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_BJT_custom">
+      <uri>/shares/akron/kicad-libs/library/Transistor_BJT_custom.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>/usr/share/kicad-nightly/library//Transistor_FET.kicad_sym</uri>
+    </library>
+    <library logical="USB4085-GF-A_REVA">
+      <uri>/home/andy/.kicad/library//USB4085-GF-A_REVA.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="VTref" pintype="power_in"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="R49" pin="1" pintype="passive"/>
+      <node ref="R51" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="SW3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="VO" pintype="power_out"/>
+      <node ref="U5" pin="30" pinfunction="VDDIN" pintype="power_in"/>
+      <node ref="U6" pin="2" pinfunction="V+" pintype="power_in"/>
+      <node ref="U7" pin="2" pinfunction="V+" pintype="power_in"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+      <node ref="R32" pin="1" pintype="passive"/>
+      <node ref="R33" pin="1" pintype="passive"/>
+      <node ref="R34" pin="1" pintype="passive"/>
+      <node ref="R35" pin="1" pintype="passive"/>
+      <node ref="R36" pin="1" pintype="passive"/>
+      <node ref="R37" pin="1" pintype="passive"/>
+      <node ref="R38" pin="1" pintype="passive"/>
+      <node ref="R39" pin="1" pintype="passive"/>
+      <node ref="R40" pin="1" pintype="passive"/>
+      <node ref="R41" pin="1" pintype="passive"/>
+      <node ref="R42" pin="1" pintype="passive"/>
+      <node ref="R43" pin="1" pintype="passive"/>
+      <node ref="R44" pin="1" pintype="passive"/>
+      <node ref="R45" pin="1" pintype="passive"/>
+      <node ref="R46" pin="1" pintype="passive"/>
+      <node ref="R47" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="VI" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U4" pin="2" pinfunction="V+" pintype="power_in"/>
+    </net>
+    <net code="3" name="/SAMD21/USB_SHIELD">
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="J1" pin="P1" pinfunction="SHELL" pintype="passive"/>
+      <node ref="J1" pin="P2" pinfunction="SHELL" pintype="passive"/>
+      <node ref="J1" pin="P3" pinfunction="SHELL" pintype="passive"/>
+      <node ref="J1" pin="P4" pinfunction="SHELL" pintype="passive"/>
+      <node ref="R52" pin="1" pintype="passive"/>
+      <node ref="U8" pin="2" pinfunction="Vn" pintype="power_in"/>
+    </net>
+    <net code="4" name="BRIGHTNESS">
+      <node ref="Q10" pin="1" pinfunction="B2" pintype="input"/>
+      <node ref="Q10" pin="2" pinfunction="B2" pintype="input"/>
+      <node ref="Q11" pin="1" pinfunction="B2" pintype="input"/>
+      <node ref="Q11" pin="2" pinfunction="B2" pintype="input"/>
+      <node ref="Q12" pin="1" pinfunction="B2" pintype="input"/>
+      <node ref="Q12" pin="2" pinfunction="B2" pintype="input"/>
+      <node ref="Q13" pin="1" pinfunction="B2" pintype="input"/>
+      <node ref="Q13" pin="2" pinfunction="B2" pintype="input"/>
+      <node ref="Q5" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="Q6" pin="1" pinfunction="B2" pintype="input"/>
+      <node ref="Q6" pin="2" pinfunction="B2" pintype="input"/>
+      <node ref="Q7" pin="1" pinfunction="B2" pintype="input"/>
+      <node ref="Q7" pin="2" pinfunction="B2" pintype="input"/>
+      <node ref="Q8" pin="1" pinfunction="B2" pintype="input"/>
+      <node ref="Q8" pin="2" pinfunction="B2" pintype="input"/>
+      <node ref="Q9" pin="1" pinfunction="B2" pintype="input"/>
+      <node ref="Q9" pin="2" pinfunction="B2" pintype="input"/>
+      <node ref="R32" pin="2" pintype="passive"/>
+      <node ref="R33" pin="2" pintype="passive"/>
+      <node ref="R34" pin="2" pintype="passive"/>
+      <node ref="R35" pin="2" pintype="passive"/>
+      <node ref="R36" pin="2" pintype="passive"/>
+      <node ref="R37" pin="2" pintype="passive"/>
+      <node ref="R38" pin="2" pintype="passive"/>
+      <node ref="R39" pin="2" pintype="passive"/>
+      <node ref="R40" pin="2" pintype="passive"/>
+      <node ref="R41" pin="2" pintype="passive"/>
+      <node ref="R42" pin="2" pintype="passive"/>
+      <node ref="R43" pin="2" pintype="passive"/>
+      <node ref="R44" pin="2" pintype="passive"/>
+      <node ref="R45" pin="2" pintype="passive"/>
+      <node ref="R46" pin="2" pintype="passive"/>
+      <node ref="R47" pin="2" pintype="passive"/>
+    </net>
+    <net code="5" name="BRIGHTNESS_ADC">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="U5" pin="8" pinfunction="PA07" pintype="bidirectional"/>
+      <node ref="U6" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="6" name="BUTTON_1">
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="1" pinfunction="PA00" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="BUTTON_2">
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="2" pinfunction="PA01" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="BUTTON_3">
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="SW3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U5" pin="3" pinfunction="PA02" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="A1" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="A12" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="B1" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="B12" pinfunction="GND" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="J2" pin="5" pinfunction="GND" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="Q5" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R52" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="PGND" pintype="power_in"/>
+      <node ref="U2" pin="10" pinfunction="PGND" pintype="passive"/>
+      <node ref="U2" pin="11" pinfunction="PGND" pintype="passive"/>
+      <node ref="U2" pin="19" pinfunction="LGND" pintype="power_in"/>
+      <node ref="U2" pin="20" pinfunction="PGND" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="PGND" pintype="power_in"/>
+      <node ref="U3" pin="10" pinfunction="PGND" pintype="passive"/>
+      <node ref="U3" pin="11" pinfunction="PGND" pintype="passive"/>
+      <node ref="U3" pin="19" pinfunction="LGND" pintype="power_in"/>
+      <node ref="U3" pin="20" pinfunction="PGND" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="V-" pintype="power_in"/>
+      <node ref="U5" pin="10" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="28" pinfunction="GND" pintype="passive"/>
+      <node ref="U6" pin="5" pinfunction="V-" pintype="power_in"/>
+      <node ref="U7" pin="5" pinfunction="V-" pintype="power_in"/>
+    </net>
+    <net code="10" name="LED_0_0">
+      <node ref="R28" pin="1" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="DRAIN0" pintype="open_collector"/>
+    </net>
+    <net code="11" name="LED_0_1">
+      <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="DRAIN1" pintype="open_collector"/>
+    </net>
+    <net code="12" name="LED_0_2">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="DRAIN2" pintype="open_collector"/>
+    </net>
+    <net code="13" name="LED_0_3">
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="DRAIN3" pintype="open_collector"/>
+    </net>
+    <net code="14" name="LED_1_0">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U2" pin="14" pinfunction="DRAIN4" pintype="open_collector"/>
+    </net>
+    <net code="15" name="LED_1_1">
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U2" pin="15" pinfunction="DRAIN5" pintype="open_collector"/>
+    </net>
+    <net code="16" name="LED_1_2">
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U2" pin="16" pinfunction="DRAIN6" pintype="open_collector"/>
+    </net>
+    <net code="17" name="LED_1_3">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="U2" pin="17" pinfunction="DRAIN7" pintype="open_collector"/>
+    </net>
+    <net code="18" name="LED_2_0">
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="DRAIN0" pintype="open_collector"/>
+    </net>
+    <net code="19" name="LED_2_1">
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="DRAIN1" pintype="open_collector"/>
+    </net>
+    <net code="20" name="LED_2_2">
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="DRAIN2" pintype="open_collector"/>
+    </net>
+    <net code="21" name="LED_2_3">
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="DRAIN3" pintype="open_collector"/>
+    </net>
+    <net code="22" name="LED_3_0">
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="U3" pin="14" pinfunction="DRAIN4" pintype="open_collector"/>
+    </net>
+    <net code="23" name="LED_3_1">
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="U3" pin="15" pinfunction="DRAIN5" pintype="open_collector"/>
+    </net>
+    <net code="24" name="LED_3_2">
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="U3" pin="16" pinfunction="DRAIN6" pintype="open_collector"/>
+    </net>
+    <net code="25" name="LED_3_3">
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="U3" pin="17" pinfunction="DRAIN7" pintype="open_collector"/>
+    </net>
+    <net code="26" name="LED_N_0">
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="U5" pin="7" pinfunction="PA06" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="LED_N_1">
+      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="U5" pin="6" pinfunction="PA05" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="LED_N_2">
+      <node ref="Q3" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="U5" pin="5" pinfunction="PA04" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="LED_N_3">
+      <node ref="Q4" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="U5" pin="4" pinfunction="PA03" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="NRST">
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="R50" pin="2" pintype="passive"/>
+      <node ref="R51" pin="2" pintype="passive"/>
+      <node ref="U5" pin="26" pinfunction="~{RESET}" pintype="input"/>
+    </net>
+    <net code="31" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="32" name="Net-(C9-Pad1)">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U7" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="33" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R49" pin="2" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(F1-Pad1)">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="A4" pinfunction="VBUS" pintype="power_in"/>
+      <node ref="J1" pin="A9" pinfunction="VBUS" pintype="power_in"/>
+      <node ref="J1" pin="B4" pinfunction="VBUS" pintype="power_in"/>
+      <node ref="J1" pin="B9" pinfunction="VBUS" pintype="power_in"/>
+      <node ref="U8" pin="5" pinfunction="Vp" pintype="power_out"/>
+    </net>
+    <net code="36" name="Net-(J2-Pad10)">
+      <node ref="J2" pin="10" pinfunction="~{RESET}" pintype="open_collector"/>
+      <node ref="R50" pin="1" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(P1-Pad1)">
+      <node ref="P1" pin="1" pintype="passive"/>
+      <node ref="Q6" pin="6" pinfunction="C2" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(P2-Pad1)">
+      <node ref="P2" pin="1" pintype="passive"/>
+      <node ref="Q6" pin="4" pinfunction="E2" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(P3-Pad1)">
+      <node ref="P3" pin="1" pintype="passive"/>
+      <node ref="Q7" pin="6" pinfunction="C2" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(P4-Pad1)">
+      <node ref="P4" pin="1" pintype="passive"/>
+      <node ref="Q7" pin="4" pinfunction="E2" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(P5-Pad1)">
+      <node ref="P5" pin="1" pintype="passive"/>
+      <node ref="Q8" pin="6" pinfunction="C2" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(P6-Pad1)">
+      <node ref="P6" pin="1" pintype="passive"/>
+      <node ref="Q8" pin="4" pinfunction="E2" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(P7-Pad1)">
+      <node ref="P7" pin="1" pintype="passive"/>
+      <node ref="Q9" pin="6" pinfunction="C2" pintype="passive"/>
+    </net>
+    <net code="44" name="Net-(P8-Pad1)">
+      <node ref="P8" pin="1" pintype="passive"/>
+      <node ref="Q9" pin="4" pinfunction="E2" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(P9-Pad1)">
+      <node ref="P9" pin="1" pintype="passive"/>
+      <node ref="Q10" pin="6" pinfunction="C2" pintype="passive"/>
+    </net>
+    <net code="46" name="Net-(P10-Pad1)">
+      <node ref="P10" pin="1" pintype="passive"/>
+      <node ref="Q10" pin="4" pinfunction="E2" pintype="passive"/>
+    </net>
+    <net code="47" name="Net-(P11-Pad1)">
+      <node ref="P11" pin="1" pintype="passive"/>
+      <node ref="Q11" pin="6" pinfunction="C2" pintype="passive"/>
+    </net>
+    <net code="48" name="Net-(P12-Pad1)">
+      <node ref="P12" pin="1" pintype="passive"/>
+      <node ref="Q11" pin="4" pinfunction="E2" pintype="passive"/>
+    </net>
+    <net code="49" name="Net-(P13-Pad1)">
+      <node ref="P13" pin="1" pintype="passive"/>
+      <node ref="Q12" pin="6" pinfunction="C2" pintype="passive"/>
+    </net>
+    <net code="50" name="Net-(P14-Pad1)">
+      <node ref="P14" pin="1" pintype="passive"/>
+      <node ref="Q12" pin="4" pinfunction="E2" pintype="passive"/>
+    </net>
+    <net code="51" name="Net-(P15-Pad1)">
+      <node ref="P15" pin="1" pintype="passive"/>
+      <node ref="Q13" pin="6" pinfunction="C2" pintype="passive"/>
+    </net>
+    <net code="52" name="Net-(P16-Pad1)">
+      <node ref="P16" pin="1" pintype="passive"/>
+      <node ref="Q13" pin="4" pinfunction="E2" pintype="passive"/>
+    </net>
+    <net code="53" name="Net-(P17-Pad1)">
+      <node ref="P17" pin="1" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="54" name="Net-(P17-Pad2)">
+      <node ref="P17" pin="2" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="55" name="Net-(P17-Pad3)">
+      <node ref="P17" pin="3" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="56" name="Net-(P17-Pad4)">
+      <node ref="P17" pin="4" pintype="passive"/>
+      <node ref="Q4" pin="3" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="57" name="Net-(Q5-Pad2)">
+      <node ref="Q5" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R31" pin="2" pintype="passive"/>
+    </net>
+    <net code="58" name="Net-(Q6-Pad3)">
+      <node ref="Q6" pin="3" pinfunction="C2" pintype="passive"/>
+      <node ref="R27" pin="2" pintype="passive"/>
+    </net>
+    <net code="59" name="Net-(Q6-Pad5)">
+      <node ref="Q6" pin="5" pinfunction="E2" pintype="passive"/>
+      <node ref="R28" pin="2" pintype="passive"/>
+    </net>
+    <net code="60" name="Net-(Q7-Pad3)">
+      <node ref="Q7" pin="3" pinfunction="C2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="61" name="Net-(Q7-Pad5)">
+      <node ref="Q7" pin="5" pinfunction="E2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="62" name="Net-(Q8-Pad3)">
+      <node ref="Q8" pin="3" pinfunction="C2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="63" name="Net-(Q8-Pad5)">
+      <node ref="Q8" pin="5" pinfunction="E2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="64" name="Net-(Q9-Pad3)">
+      <node ref="Q9" pin="3" pinfunction="C2" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+    </net>
+    <net code="65" name="Net-(Q9-Pad5)">
+      <node ref="Q9" pin="5" pinfunction="E2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="66" name="Net-(Q10-Pad3)">
+      <node ref="Q10" pin="3" pinfunction="C2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+    </net>
+    <net code="67" name="Net-(Q10-Pad5)">
+      <node ref="Q10" pin="5" pinfunction="E2" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+    </net>
+    <net code="68" name="Net-(Q11-Pad3)">
+      <node ref="Q11" pin="3" pinfunction="C2" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+    </net>
+    <net code="69" name="Net-(Q11-Pad5)">
+      <node ref="Q11" pin="5" pinfunction="E2" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+    </net>
+    <net code="70" name="Net-(Q12-Pad3)">
+      <node ref="Q12" pin="3" pinfunction="C2" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+    </net>
+    <net code="71" name="Net-(Q12-Pad5)">
+      <node ref="Q12" pin="5" pinfunction="E2" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+    </net>
+    <net code="72" name="Net-(Q13-Pad3)">
+      <node ref="Q13" pin="3" pinfunction="C2" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+    </net>
+    <net code="73" name="Net-(Q13-Pad5)">
+      <node ref="Q13" pin="5" pinfunction="E2" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+    </net>
+    <net code="74" name="Net-(R29-Pad2)">
+      <node ref="R29" pin="2" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="75" name="Net-(R31-Pad1)">
+      <node ref="R31" pin="1" pintype="passive"/>
+      <node ref="U6" pin="1" pintype="output"/>
+      <node ref="U6" pin="4" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="76" name="SHIFT2_SER_IN">
+      <node ref="U2" pin="18" pinfunction="SER_OUT" pintype="output"/>
+      <node ref="U3" pin="3" pinfunction="SER_IN" pintype="input"/>
+    </net>
+    <net code="77" name="SHIFT_G">
+      <node ref="U2" pin="9" pinfunction="~{G}" pintype="input"/>
+      <node ref="U3" pin="9" pinfunction="~{G}" pintype="input"/>
+      <node ref="U5" pin="15" pinfunction="PA14" pintype="bidirectional"/>
+    </net>
+    <net code="78" name="SHIFT_RCLK">
+      <node ref="U2" pin="12" pinfunction="RCLK" pintype="input"/>
+      <node ref="U3" pin="12" pinfunction="RCLK" pintype="input"/>
+      <node ref="U5" pin="14" pinfunction="PA11" pintype="bidirectional"/>
+    </net>
+    <net code="79" name="SHIFT_SER_IN">
+      <node ref="U2" pin="3" pinfunction="SER_IN" pintype="input"/>
+      <node ref="U5" pin="11" pinfunction="PA08" pintype="bidirectional"/>
+    </net>
+    <net code="80" name="SHIFT_SRCK">
+      <node ref="U2" pin="13" pinfunction="SRCK" pintype="input"/>
+      <node ref="U3" pin="13" pinfunction="SRCK" pintype="input"/>
+      <node ref="U5" pin="12" pinfunction="PA09" pintype="bidirectional"/>
+    </net>
+    <net code="81" name="SHIFT_SRCLR">
+      <node ref="U2" pin="8" pinfunction="~{SRCLR}" pintype="input"/>
+      <node ref="U3" pin="8" pinfunction="~{SRCLR}" pintype="input"/>
+      <node ref="U5" pin="13" pinfunction="PA10" pintype="bidirectional"/>
+    </net>
+    <net code="82" name="SWCLK">
+      <node ref="J2" pin="4" pinfunction="SWDCLK/TCK" pintype="output"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="U5" pin="31" pinfunction="PA30" pintype="bidirectional"/>
+    </net>
+    <net code="83" name="SWDIO">
+      <node ref="J2" pin="2" pinfunction="SWDIO/TMS" pintype="bidirectional"/>
+      <node ref="U5" pin="32" pinfunction="PA31" pintype="bidirectional"/>
+    </net>
+    <net code="84" name="U5V">
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="85" name="U5V_CSENSE">
+      <node ref="R30" pin="2" pintype="passive"/>
+      <node ref="U4" pin="1" pintype="output"/>
+      <node ref="U5" pin="17" pinfunction="PA16" pintype="bidirectional"/>
+    </net>
+    <net code="86" name="U5V_VSENSE">
+      <node ref="U5" pin="16" pinfunction="PA15" pintype="bidirectional"/>
+      <node ref="U7" pin="1" pintype="output"/>
+      <node ref="U7" pin="4" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="87" name="USB_CC1">
+      <node ref="J1" pin="A5" pinfunction="CC1" pintype="bidirectional"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="U5" pin="21" pinfunction="PA22" pintype="bidirectional"/>
+    </net>
+    <net code="88" name="USB_CC2">
+      <node ref="J1" pin="B5" pinfunction="CC2" pintype="bidirectional"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="U5" pin="25" pinfunction="PA27" pintype="bidirectional"/>
+    </net>
+    <net code="89" name="USB_N">
+      <node ref="J1" pin="A7" pinfunction="DN1" pintype="bidirectional"/>
+      <node ref="J1" pin="B7" pinfunction="DN2" pintype="bidirectional"/>
+      <node ref="U5" pin="23" pinfunction="PA24" pintype="bidirectional"/>
+      <node ref="U8" pin="6" pinfunction="CH4" pintype="passive"/>
+    </net>
+    <net code="90" name="USB_P">
+      <node ref="J1" pin="A6" pinfunction="DP1" pintype="bidirectional"/>
+      <node ref="J1" pin="B6" pinfunction="DP2" pintype="bidirectional"/>
+      <node ref="U5" pin="24" pinfunction="PA25" pintype="bidirectional"/>
+      <node ref="U8" pin="4" pinfunction="CH3" pintype="passive"/>
+    </net>
+    <net code="91" name="VDDANA">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U5" pin="9" pinfunction="VDDANA" pintype="power_in"/>
+    </net>
+    <net code="92" name="VDDCORE">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="U5" pin="29" pinfunction="VDDCORE" pintype="power_out"/>
+    </net>
+    <net code="93" name="unconnected-(J1-PadA8)">
+      <node ref="J1" pin="A8" pinfunction="SBU1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="94" name="unconnected-(J1-PadB8)">
+      <node ref="J1" pin="B8" pinfunction="SBU2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="95" name="unconnected-(J2-Pad6)">
+      <node ref="J2" pin="6" pinfunction="SWO/TDO" pintype="input+no_connect"/>
+    </net>
+    <net code="96" name="unconnected-(J2-Pad7)">
+      <node ref="J2" pin="7" pinfunction="KEY" pintype="no_connect"/>
+    </net>
+    <net code="97" name="unconnected-(J2-Pad8)">
+      <node ref="J2" pin="8" pinfunction="NC/TDI" pintype="output+no_connect"/>
+    </net>
+    <net code="98" name="unconnected-(J2-Pad9)">
+      <node ref="J2" pin="9" pinfunction="GNDDetect" pintype="passive+no_connect"/>
+    </net>
+    <net code="99" name="unconnected-(U3-Pad18)">
+      <node ref="U3" pin="18" pinfunction="SER_OUT" pintype="output+no_connect"/>
+    </net>
+    <net code="100" name="unconnected-(U5-Pad18)">
+      <node ref="U5" pin="18" pinfunction="PA17" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="101" name="unconnected-(U5-Pad19)">
+      <node ref="U5" pin="19" pinfunction="PA18" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="102" name="unconnected-(U5-Pad20)">
+      <node ref="U5" pin="20" pinfunction="PA19" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="103" name="unconnected-(U5-Pad22)">
+      <node ref="U5" pin="22" pinfunction="PA23" pintype="bidirectional"/>
+    </net>
+    <net code="104" name="unconnected-(U5-Pad27)">
+      <node ref="U5" pin="27" pinfunction="PA28" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="105" name="unconnected-(U8-Pad1)">
+      <node ref="U8" pin="1" pinfunction="CH1" pintype="passive"/>
+    </net>
+    <net code="106" name="unconnected-(U8-Pad3)">
+      <node ref="U8" pin="3" pinfunction="CH2" pintype="passive"/>
+    </net>
+  </nets>
+</export>
